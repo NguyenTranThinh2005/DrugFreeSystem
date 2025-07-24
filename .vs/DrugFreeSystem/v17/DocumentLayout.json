@@ -1,0 +1,2046 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\iusersurveyanswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\iusersurveyanswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\iusersurveyresponseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\iusersurveyresponseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\coursecertificateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\coursecertificateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\lessonresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\lessonresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\practiceexerciseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\practiceexerciseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\quizoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\quizoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\quizquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\quizquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\quizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\surveyoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\surveyoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\surveyquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\surveyquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\surveyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\surveyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\usercourseenrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\usercourseenrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\userlessonprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\userlessonprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\usermodulequizresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\usermodulequizresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\userquizanswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\userquizanswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\usersurveyanswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\usersurveyanswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\usersurveyresponseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\usersurveyresponseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\icoursecertificateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\icoursecertificateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\iquizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\iquizservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\iquizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iquizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\isurveyoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\isurveyoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\isurveyoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\isurveyoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\usersurveyanswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\usersurveyanswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\iuserquizanswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\iuserquizanswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\iuserquizanswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iuserquizanswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\userquizanswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\userquizanswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\isurveyquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\isurveyquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\isurveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\isurveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\iusersurveyanswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iusersurveyanswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\iusermodulequizresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\iusermodulequizresultservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\iusermodulequizresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iusermodulequizresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\usermodulequizresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\usermodulequizresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\iuserlessonprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\iuserlessonprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\isurveyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\isurveyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\iusercourseenrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\iusercourseenrollmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\iusersurveyresponserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iusersurveyresponserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\usersurveyresponserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\usersurveyresponserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\iquizquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\iquizquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\iquizoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\iquizoptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\ipracticeexerciseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\ipracticeexerciseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\ilessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\ilessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\lessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\lessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\usercourseenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\usercourseenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\interface\\ilessonresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\interface\\ilessonresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\lessonresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\lessonresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADB941F-608D-4B65-ACC3-7330BD531DDE}|DrugFreeSystem\\ThePresentation.csproj|d:\\fptu\\semesterv\\drugfreesystem\\drugfreesystem\\thepresentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8ADB941F-608D-4B65-ACC3-7330BD531DDE}|DrugFreeSystem\\ThePresentation.csproj|solutionrelative:drugfreesystem\\thepresentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E1FAAF-2A0E-4CD8-BB80-BFB5A7FBEC23}|DataAccessLayer\\DataAccessLayer.csproj|d:\\fptu\\semesterv\\drugfreesystem\\dataaccesslayer\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E1FAAF-2A0E-4CD8-BB80-BFB5A7FBEC23}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E1FAAF-2A0E-4CD8-BB80-BFB5A7FBEC23}|DataAccessLayer\\DataAccessLayer.csproj|d:\\fptu\\semesterv\\drugfreesystem\\dataaccesslayer\\drugfreesystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54E1FAAF-2A0E-4CD8-BB80-BFB5A7FBEC23}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\drugfreesystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\coursecertificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\coursecertificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|d:\\fptu\\semesterv\\drugfreesystem\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD1B8AB5-8475-41A9-A912-F59D70AF0133}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\userlessonprogressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\userlessonprogressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\surveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\surveyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\surveyquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\surveyquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\surveyoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\surveyoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\quizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\quizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\quizquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\quizquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\quizoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\quizoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\practiceexerciserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\practiceexerciserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\lessonresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\lessonresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\coursecertificaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\coursecertificaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\iuserlessonprogressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iuserlessonprogressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\iusercourseenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iusercourseenrollmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\isurveyquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\isurveyquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\iquizquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iquizquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\iquizoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iquizoptionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\ipracticeexerciserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\ipracticeexerciserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\ilessonresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\ilessonresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\ilessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\ilessonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\interface\\icoursecertificaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\icoursecertificaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\practiceexercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\practiceexercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\quizoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\quizoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E1FAAF-2A0E-4CD8-BB80-BFB5A7FBEC23}|DataAccessLayer\\DataAccessLayer.csproj|d:\\fptu\\semesterv\\drugfreesystem\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54E1FAAF-2A0E-4CD8-BB80-BFB5A7FBEC23}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\usersurveyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\usersurveyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\usersurveyanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\usersurveyanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\userquizanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\userquizanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\usermodulequizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\usermodulequizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\userlessonprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\userlessonprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\usercourseenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\usercourseenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\surveyquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\surveyquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\survey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\survey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|d:\\fptu\\semesterv\\drugfreesystem\\businessobjects\\surveyoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89E0A68-2E7E-4273-8A73-3F40DFD7DEDB}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\surveyoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|d:\\fptu\\semesterv\\drugfreesystem\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5A47BA5C-6BF6-4B1A-AA2F-BF3A91E40573}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADB941F-608D-4B65-ACC3-7330BD531DDE}|DrugFreeSystem\\ThePresentation.csproj|d:\\fptu\\semesterv\\drugfreesystem\\drugfreesystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ADB941F-608D-4B65-ACC3-7330BD531DDE}|DrugFreeSystem\\ThePresentation.csproj|solutionrelative:drugfreesystem\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADB941F-608D-4B65-ACC3-7330BD531DDE}|DrugFreeSystem\\ThePresentation.csproj|d:\\fptu\\semesterv\\drugfreesystem\\drugfreesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8ADB941F-608D-4B65-ACC3-7330BD531DDE}|DrugFreeSystem\\ThePresentation.csproj|solutionrelative:drugfreesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ADB941F-608D-4B65-ACC3-7330BD531DDE}|DrugFreeSystem\\ThePresentation.csproj|d:\\fptu\\semesterv\\drugfreesystem\\drugfreesystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8ADB941F-608D-4B65-ACC3-7330BD531DDE}|DrugFreeSystem\\ThePresentation.csproj|solutionrelative:drugfreesystem\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 542,
+          "SelectedChildIndex": 74,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1377497384:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1928210406:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:41:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:41:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:43:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:44:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:44:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:43:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:45:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:48:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LessonResourceService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\LessonResourceService.cs",
+              "RelativeDocumentMoniker": "Services\\LessonResourceService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\LessonResourceService.cs",
+              "RelativeToolTip": "Services\\LessonResourceService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwCEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:05:18.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "Services\\CourseService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\CourseService.cs",
+              "RelativeToolTip": "Services\\CourseService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:05:11.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseCertificateService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\CourseCertificateService.cs",
+              "RelativeDocumentMoniker": "Services\\CourseCertificateService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\CourseCertificateService.cs",
+              "RelativeToolTip": "Services\\CourseCertificateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:04:59.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserSurveyResponseService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserSurveyResponseService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IUserSurveyResponseService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserSurveyResponseService.cs",
+              "RelativeToolTip": "Services\\Interface\\IUserSurveyResponseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:02:03.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserSurveyAnswerService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserSurveyAnswerService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IUserSurveyAnswerService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserSurveyAnswerService.cs",
+              "RelativeToolTip": "Services\\Interface\\IUserSurveyAnswerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:58:12.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IUserService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:01:54.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LessonService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\LessonService.cs",
+              "RelativeDocumentMoniker": "Services\\LessonService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\LessonService.cs",
+              "RelativeToolTip": "Services\\LessonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:05:27.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PracticeExerciseService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\PracticeExerciseService.cs",
+              "RelativeDocumentMoniker": "Services\\PracticeExerciseService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\PracticeExerciseService.cs",
+              "RelativeToolTip": "Services\\PracticeExerciseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:05:45.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuizOptionService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\QuizOptionService.cs",
+              "RelativeDocumentMoniker": "Services\\QuizOptionService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\QuizOptionService.cs",
+              "RelativeToolTip": "Services\\QuizOptionService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:52:41.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuizQuestionService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\QuizQuestionService.cs",
+              "RelativeDocumentMoniker": "Services\\QuizQuestionService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\QuizQuestionService.cs",
+              "RelativeToolTip": "Services\\QuizQuestionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:53:26.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuizService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\QuizService.cs",
+              "RelativeDocumentMoniker": "Services\\QuizService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\QuizService.cs",
+              "RelativeToolTip": "Services\\QuizService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA3wC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:53:42.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SurveyOptionService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\SurveyOptionService.cs",
+              "RelativeDocumentMoniker": "Services\\SurveyOptionService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\SurveyOptionService.cs",
+              "RelativeToolTip": "Services\\SurveyOptionService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:06:08.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SurveyQuestionService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\SurveyQuestionService.cs",
+              "RelativeDocumentMoniker": "Services\\SurveyQuestionService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\SurveyQuestionService.cs",
+              "RelativeToolTip": "Services\\SurveyQuestionService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:06:16.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SurveyService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\SurveyService.cs",
+              "RelativeDocumentMoniker": "Services\\SurveyService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\SurveyService.cs",
+              "RelativeToolTip": "Services\\SurveyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:09:57.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserCourseEnrollmentService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserCourseEnrollmentService.cs",
+              "RelativeDocumentMoniker": "Services\\UserCourseEnrollmentService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserCourseEnrollmentService.cs",
+              "RelativeToolTip": "Services\\UserCourseEnrollmentService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:10:03.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserLessonProgressService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserLessonProgressService.cs",
+              "RelativeDocumentMoniker": "Services\\UserLessonProgressService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserLessonProgressService.cs",
+              "RelativeToolTip": "Services\\UserLessonProgressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:10:08.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserModuleQuizResultService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserModuleQuizResultService.cs",
+              "RelativeDocumentMoniker": "Services\\UserModuleQuizResultService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserModuleQuizResultService.cs",
+              "RelativeToolTip": "Services\\UserModuleQuizResultService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:10:15.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserQuizAnswerService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserQuizAnswerService.cs",
+              "RelativeDocumentMoniker": "Services\\UserQuizAnswerService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserQuizAnswerService.cs",
+              "RelativeToolTip": "Services\\UserQuizAnswerService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:10:19.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:10:25.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserSurveyAnswerService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserSurveyAnswerService.cs",
+              "RelativeDocumentMoniker": "Services\\UserSurveyAnswerService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserSurveyAnswerService.cs",
+              "RelativeToolTip": "Services\\UserSurveyAnswerService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wDoAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:10:31.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserSurveyResponseService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserSurveyResponseService.cs",
+              "RelativeDocumentMoniker": "Services\\UserSurveyResponseService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\UserSurveyResponseService.cs",
+              "RelativeToolTip": "Services\\UserSurveyResponseService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:10:40.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ICourseService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\ICourseService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ICourseService.cs",
+              "RelativeToolTip": "Services\\Interface\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:56:21.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ICourseCertificateService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ICourseCertificateService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\ICourseCertificateService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ICourseCertificateService.cs",
+              "RelativeToolTip": "Services\\Interface\\ICourseCertificateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:55:47.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IQuizService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IQuizService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IQuizService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IQuizService.cs",
+              "RelativeToolTip": "Services\\Interface\\IQuizService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:59:00.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IQuizRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IQuizRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IQuizRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IQuizRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IQuizRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:56:30.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ISurveyOptionService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ISurveyOptionService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\ISurveyOptionService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ISurveyOptionService.cs",
+              "RelativeToolTip": "Services\\Interface\\ISurveyOptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:59:05.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ISurveyOptionRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ISurveyOptionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ISurveyOptionRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ISurveyOptionRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ISurveyOptionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:56:39.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserSurveyAnswerRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserSurveyAnswerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserSurveyAnswerRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserSurveyAnswerRepository.cs",
+              "RelativeToolTip": "Repositories\\UserSurveyAnswerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:02:14.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserQuizAnswerService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserQuizAnswerService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IUserQuizAnswerService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserQuizAnswerService.cs",
+              "RelativeToolTip": "Services\\Interface\\IUserQuizAnswerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:01:48.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUserQuizAnswerRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserQuizAnswerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IUserQuizAnswerRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserQuizAnswerRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IUserQuizAnswerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:57:23.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserQuizAnswerRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserQuizAnswerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserQuizAnswerRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserQuizAnswerRepository.cs",
+              "RelativeToolTip": "Repositories\\UserQuizAnswerRepository.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAIA9wFYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:01:23.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ISurveyQuestionService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ISurveyQuestionService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\ISurveyQuestionService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ISurveyQuestionService.cs",
+              "RelativeToolTip": "Services\\Interface\\ISurveyQuestionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:59:13.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ISurveyRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ISurveyRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ISurveyRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ISurveyRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ISurveyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:53:29.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IUserSurveyAnswerRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserSurveyAnswerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IUserSurveyAnswerRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserSurveyAnswerRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IUserSurveyAnswerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:57:41.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IUserModuleQuizResultService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserModuleQuizResultService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IUserModuleQuizResultService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserModuleQuizResultService.cs",
+              "RelativeToolTip": "Services\\Interface\\IUserModuleQuizResultService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:01:42.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IUserModuleQuizResultRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserModuleQuizResultRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IUserModuleQuizResultRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserModuleQuizResultRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IUserModuleQuizResultRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:57:15.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserModuleQuizResultRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserModuleQuizResultRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserModuleQuizResultRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserModuleQuizResultRepository.cs",
+              "RelativeToolTip": "Repositories\\UserModuleQuizResultRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA+wE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:01:19.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IUserLessonProgressService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserLessonProgressService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IUserLessonProgressService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserLessonProgressService.cs",
+              "RelativeToolTip": "Services\\Interface\\IUserLessonProgressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:59:28.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ISurveyService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ISurveyService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\ISurveyService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ISurveyService.cs",
+              "RelativeToolTip": "Services\\Interface\\ISurveyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:59:18.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IUserCourseEnrollmentService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserCourseEnrollmentService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IUserCourseEnrollmentService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IUserCourseEnrollmentService.cs",
+              "RelativeToolTip": "Services\\Interface\\IUserCourseEnrollmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:59:21.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IUserSurveyResponseRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserSurveyResponseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IUserSurveyResponseRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserSurveyResponseRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IUserSurveyResponseRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:57:49.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserSurveyResponseRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserSurveyResponseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserSurveyResponseRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserSurveyResponseRepository.cs",
+              "RelativeToolTip": "Repositories\\UserSurveyResponseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:02:05.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IUserRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:57:31.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA+wEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:01:39.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IQuizQuestionService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IQuizQuestionService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IQuizQuestionService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IQuizQuestionService.cs",
+              "RelativeToolTip": "Services\\Interface\\IQuizQuestionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:58:44.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IQuizOptionService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IQuizOptionService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IQuizOptionService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IQuizOptionService.cs",
+              "RelativeToolTip": "Services\\Interface\\IQuizOptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:58:43.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ILessonService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ILessonService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\ILessonService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ILessonService.cs",
+              "RelativeToolTip": "Services\\Interface\\ILessonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:58:30.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LessonRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\LessonRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\LessonRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\LessonRepository.cs",
+              "RelativeToolTip": "Repositories\\LessonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:38:07.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IPracticeExerciseService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IPracticeExerciseService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IPracticeExerciseService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\IPracticeExerciseService.cs",
+              "RelativeToolTip": "Services\\Interface\\IPracticeExerciseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:58:36.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserCourseEnrollmentRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserCourseEnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserCourseEnrollmentRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserCourseEnrollmentRepository.cs",
+              "RelativeToolTip": "Repositories\\UserCourseEnrollmentRepository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwvzMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:01:09.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DrugFreeSystem\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DrugFreeSystem\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DrugFreeSystem\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DrugFreeSystem\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:04:37.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ILessonResourceService.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ILessonResourceService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\ILessonResourceService.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Interface\\ILessonResourceService.cs",
+              "RelativeToolTip": "Services\\Interface\\ILessonResourceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:56:39.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "LessonResource.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\LessonResource.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\LessonResource.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\LessonResource.cs",
+              "RelativeToolTip": "BusinessObjects\\LessonResource.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:32:37.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ICourseRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ICourseRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:55:20.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ThePresentation.csproj",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DrugFreeSystem\\ThePresentation.csproj",
+              "RelativeDocumentMoniker": "DrugFreeSystem\\ThePresentation.csproj",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DrugFreeSystem\\ThePresentation.csproj",
+              "RelativeToolTip": "DrugFreeSystem\\ThePresentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T17:34:52.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DataAccessLayer\\UserDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\UserDAO.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DataAccessLayer\\UserDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\UserDAO.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwDEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:13:58.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DrugFreeSystemDbContext.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DataAccessLayer\\DrugFreeSystemDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DrugFreeSystemDbContext.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DataAccessLayer\\DrugFreeSystemDbContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\DrugFreeSystemDbContext.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAwwD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:34:02.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\Lesson.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Lesson.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\Lesson.cs",
+              "RelativeToolTip": "BusinessObjects\\Lesson.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:32:34.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\Course.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Course.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\Course.cs",
+              "RelativeToolTip": "BusinessObjects\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:32:09.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CourseCertificate.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\CourseCertificate.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\CourseCertificate.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\CourseCertificate.cs",
+              "RelativeToolTip": "BusinessObjects\\CourseCertificate.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:32:28.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Services.csproj",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T17:34:40.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "UserLessonProgressRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserLessonProgressRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserLessonProgressRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\UserLessonProgressRepository.cs",
+              "RelativeToolTip": "Repositories\\UserLessonProgressRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAA7wGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:01:14.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SurveyRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\SurveyRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SurveyRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\SurveyRepository.cs",
+              "RelativeToolTip": "Repositories\\SurveyRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:01:02.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "SurveyQuestionRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\SurveyQuestionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SurveyQuestionRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\SurveyQuestionRepository.cs",
+              "RelativeToolTip": "Repositories\\SurveyQuestionRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:00:52.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "SurveyOptionRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\SurveyOptionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SurveyOptionRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\SurveyOptionRepository.cs",
+              "RelativeToolTip": "Repositories\\SurveyOptionRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:00:47.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "QuizRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\QuizRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\QuizRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\QuizRepository.cs",
+              "RelativeToolTip": "Repositories\\QuizRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T19:00:36.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "QuizQuestionRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\QuizQuestionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\QuizQuestionRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\QuizQuestionRepository.cs",
+              "RelativeToolTip": "Repositories\\QuizQuestionRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:38:35.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "QuizOptionRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\QuizOptionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\QuizOptionRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\QuizOptionRepository.cs",
+              "RelativeToolTip": "Repositories\\QuizOptionRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:38:29.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "PracticeExerciseRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\PracticeExerciseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PracticeExerciseRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\PracticeExerciseRepository.cs",
+              "RelativeToolTip": "Repositories\\PracticeExerciseRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:38:20.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "LessonResourceRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\LessonResourceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\LessonResourceRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\LessonResourceRepository.cs",
+              "RelativeToolTip": "Repositories\\LessonResourceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:38:14.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CourseRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:33:42.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "CourseCertificateRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\CourseCertificateRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CourseCertificateRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\CourseCertificateRepository.cs",
+              "RelativeToolTip": "Repositories\\CourseCertificateRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:33:25.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "IUserLessonProgressRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserLessonProgressRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IUserLessonProgressRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserLessonProgressRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IUserLessonProgressRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:57:04.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "IUserCourseEnrollmentRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserCourseEnrollmentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IUserCourseEnrollmentRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IUserCourseEnrollmentRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IUserCourseEnrollmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:57:01.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ISurveyQuestionRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ISurveyQuestionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ISurveyQuestionRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ISurveyQuestionRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ISurveyQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:56:48.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "IQuizQuestionRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IQuizQuestionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IQuizQuestionRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IQuizQuestionRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IQuizQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:56:22.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "IQuizOptionRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IQuizOptionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IQuizOptionRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IQuizOptionRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IQuizOptionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:56:14.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "IPracticeExerciseRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IPracticeExerciseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IPracticeExerciseRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\IPracticeExerciseRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IPracticeExerciseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:55:59.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ILessonResourceRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ILessonResourceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ILessonResourceRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ILessonResourceRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ILessonResourceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:55:49.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ILessonRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ILessonRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ILessonRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ILessonRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ILessonRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:55:33.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ICourseCertificateRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ICourseCertificateRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\ICourseCertificateRepository.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Interface\\ICourseCertificateRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\ICourseCertificateRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T18:55:09.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\Role.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Role.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\Role.cs",
+              "RelativeToolTip": "BusinessObjects\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:32:52.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "PracticeExercise.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\PracticeExercise.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\PracticeExercise.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\PracticeExercise.cs",
+              "RelativeToolTip": "BusinessObjects\\PracticeExercise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:32:40.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\Quiz.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Quiz.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\Quiz.cs",
+              "RelativeToolTip": "BusinessObjects\\Quiz.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:32:43.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "QuizOption.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\QuizOption.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\QuizOption.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\QuizOption.cs",
+              "RelativeToolTip": "BusinessObjects\\QuizOption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:32:46.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "QuizQuestion.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\QuizQuestion.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\QuizQuestion.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\QuizQuestion.cs",
+              "RelativeToolTip": "BusinessObjects\\QuizQuestion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:32:49.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "DataAccessLayer.csproj",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T17:34:10.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "UserSurveyResponse.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserSurveyResponse.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\UserSurveyResponse.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserSurveyResponse.cs",
+              "RelativeToolTip": "BusinessObjects\\UserSurveyResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:33:50.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "UserSurveyAnswer.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserSurveyAnswer.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\UserSurveyAnswer.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserSurveyAnswer.cs",
+              "RelativeToolTip": "BusinessObjects\\UserSurveyAnswer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:33:43.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "UserQuizAnswer.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserQuizAnswer.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\UserQuizAnswer.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserQuizAnswer.cs",
+              "RelativeToolTip": "BusinessObjects\\UserQuizAnswer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:33:38.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "UserModuleQuizResult.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserModuleQuizResult.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\UserModuleQuizResult.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserModuleQuizResult.cs",
+              "RelativeToolTip": "BusinessObjects\\UserModuleQuizResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:33:35.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "UserLessonProgress.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserLessonProgress.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\UserLessonProgress.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserLessonProgress.cs",
+              "RelativeToolTip": "BusinessObjects\\UserLessonProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:33:29.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "UserCourseEnrollment.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserCourseEnrollment.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\UserCourseEnrollment.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\UserCourseEnrollment.cs",
+              "RelativeToolTip": "BusinessObjects\\UserCourseEnrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:33:23.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "SurveyQuestion.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\SurveyQuestion.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\SurveyQuestion.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\SurveyQuestion.cs",
+              "RelativeToolTip": "BusinessObjects\\SurveyQuestion.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:33:12.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\User.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\User.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\User.cs",
+              "RelativeToolTip": "BusinessObjects\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:33:21.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "Survey.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\Survey.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Survey.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\Survey.cs",
+              "RelativeToolTip": "BusinessObjects\\Survey.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:33:01.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "SurveyOption.cs",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\SurveyOption.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\SurveyOption.cs",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\BusinessObjects\\SurveyOption.cs",
+              "RelativeToolTip": "BusinessObjects\\SurveyOption.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T17:33:04.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Repositories.csproj",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Repositories.csproj",
+              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\Repositories\\Repositories.csproj",
+              "RelativeToolTip": "Repositories\\Repositories.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-22T17:34:21.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DrugFreeSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "DrugFreeSystem\\appsettings.json",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DrugFreeSystem\\appsettings.json",
+              "RelativeToolTip": "DrugFreeSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-22T17:35:40.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DrugFreeSystem\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DrugFreeSystem\\MainWindow.xaml",
+              "ToolTip": "D:\\FPTU\\SemesterV\\DrugFreeSystem\\DrugFreeSystem\\MainWindow.xaml",
+              "RelativeToolTip": "DrugFreeSystem\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-22T17:04:40.92Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 75,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 392,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:33:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:31:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1304,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

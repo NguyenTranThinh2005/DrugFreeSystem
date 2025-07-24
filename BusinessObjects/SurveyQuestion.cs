@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace BusinessObjects;
+
+public partial class SurveyQuestion
+{
+    public Guid QuestionId { get; set; }
+
+    public Guid SurveyId { get; set; }
+
+    public string QuestionText { get; set; } = null!;
+
+    public string QuestionType { get; set; } = null!;
+
+    public int Sequence { get; set; }
+
+    public DateTime CreatedAt { get; set; }
+
+    public DateTime? UpdatedAt { get; set; }
+
+    public virtual Survey Survey { get; set; } = null!;
+
+    public virtual ICollection<SurveyOption> SurveyOptions { get; set; } = new List<SurveyOption>();
+
+    public virtual ICollection<UserSurveyAnswer> UserSurveyAnswers { get; set; } = new List<UserSurveyAnswer>();
+}
