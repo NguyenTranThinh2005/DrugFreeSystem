@@ -5,7 +5,7 @@ namespace BusinessObjects;
 
 public partial class Survey
 {
-    public Guid SurveyId { get; set; }
+    public int SurveyId { get; set; }
 
     public string Name { get; set; } = null!;
 

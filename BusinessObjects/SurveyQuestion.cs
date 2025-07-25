@@ -5,9 +5,9 @@ namespace BusinessObjects;
 
 public partial class SurveyQuestion
 {
-    public Guid QuestionId { get; set; }
+    public int QuestionId { get; set; }
 
-    public Guid SurveyId { get; set; }
+    public int SurveyId { get; set; }
 
     public string QuestionText { get; set; } = null!;
 

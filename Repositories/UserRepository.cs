@@ -12,9 +12,9 @@ namespace Repositories
 {
     public class UserRepository : IUserRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public UserRepository(DrugFreeSystemDbContext context)
+        public UserRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -24,7 +24,7 @@ namespace Repositories
             return _context.Users.Include(u => u.Role).ToList();
         }
 
-        public User? GetById(Guid id)
+        public User? GetById(int id)
         {
             return _context.Users.Include(u => u.Role).FirstOrDefault(u => u.UserId == id);
         }
@@ -51,7 +51,7 @@ namespace Repositories
             return _context.SaveChanges() > 0;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var user = _context.Users.Find(id);
             if (user == null) return false;

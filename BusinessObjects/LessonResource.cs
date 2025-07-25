@@ -5,9 +5,9 @@ namespace BusinessObjects;
 
 public partial class LessonResource
 {
-    public Guid ResourceId { get; set; }
+    public int ResourceId { get; set; }
 
-    public Guid LessonId { get; set; }
+    public int LessonId { get; set; }
 
     public string ResourceType { get; set; } = null!;
 

@@ -12,9 +12,9 @@ namespace Repositories.Interface.SurveyRepo
     {
         Survey AddNewSurvey(Survey survey);
         List<Survey> GetAllSurvey();
-        Survey? GetSurveyById(Guid id);
+        Survey? GetSurveyById(int id);
         Survey? GetSurveyByName(string surveyName);
-        bool DeleteSurveyById(Guid id);
+        bool DeleteSurveyById(int id);
         bool UpdateSurvey(Survey survey);
     }
 }

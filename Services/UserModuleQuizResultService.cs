@@ -20,25 +20,23 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _userModuleQuizResultRepository.GetUserModuleQuizResults();
         }
 
-        public UserModuleQuizResult? GetById(Guid resultId)
+        public UserModuleQuizResult? GetById(int resultId)
         {
             return _userModuleQuizResultRepository.GetUserModuleQuizResultById(resultId);
         }
 
-        public List<UserModuleQuizResult> GetByUserId(Guid userId)
+        public List<UserModuleQuizResult> GetByUserId(int userId)
         {
             return _userModuleQuizResultRepository.GetUserModuleQuizResultsByUserId(userId);
         }
 
-        public List<UserModuleQuizResult> GetByLessonId(Guid lessonId)
+        public List<UserModuleQuizResult> GetByLessonId(int lessonId)
         {
             return _userModuleQuizResultRepository.GetUserModuleQuizResultsByLessonId(lessonId);
         }
 
         public void Add(UserModuleQuizResult result)
         {
-            result.ResultId = Guid.NewGuid();
-            result.TakenAt = DateTime.Now;
             _userModuleQuizResultRepository.AddUserModuleQuizResult(result);
         }
 
@@ -59,12 +57,12 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return true;
         }
 
-        public bool Delete(Guid resultId)
+        public bool Delete(int resultId)
         {
             return _userModuleQuizResultRepository.DeleteUserModuleQuizResult(resultId);
         }
 
-        public UserModuleQuizResult? GetLatestForLesson(Guid userId, Guid lessonId)
+        public UserModuleQuizResult? GetLatestForLesson(int userId, int lessonId)
         {
             return _userModuleQuizResultRepository.GetLatestUserModuleQuizResultForLesson(userId, lessonId);
         }

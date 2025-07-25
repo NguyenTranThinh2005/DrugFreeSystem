@@ -9,10 +9,10 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Interfaces
     {
         void Add(UserCourseEnrollment enrollment);
         List<UserCourseEnrollment> GetAll();
-        UserCourseEnrollment? GetById(Guid id);
-        bool Delete(Guid id);
+        UserCourseEnrollment? GetById(int id);
+        bool Delete(int id);
         bool Update(UserCourseEnrollment enrollment);
-        List<UserCourseEnrollment> GetByUserId(Guid userId);
-        List<UserCourseEnrollment> GetByCourseId(Guid courseId);
+        List<UserCourseEnrollment> GetByUserId(int userId);
+        List<UserCourseEnrollment> GetByCourseId(int courseId);
     }
 } 

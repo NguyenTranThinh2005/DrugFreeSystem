@@ -21,7 +21,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _userSurveyResponseRepository.GetAll();
         }
 
-        public UserSurveyResponse? GetById(Guid id)
+        public UserSurveyResponse? GetById(int id)
         {
             return _userSurveyResponseRepository.GetById(id);
         }
@@ -42,7 +42,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
 
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             return _userSurveyResponseRepository.Delete(id);
         }

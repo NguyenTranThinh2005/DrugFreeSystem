@@ -30,7 +30,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _repo.GetAll().ToList();
         }
 
-        public PracticeExercise GetById(Guid id)
+        public PracticeExercise GetById(int id)
         {
             var exercise = _repo.GetById(id);
             if (exercise == null)
@@ -39,7 +39,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return exercise;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var existing = _repo.GetById(id);
             if (existing == null)
@@ -62,7 +62,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _repo.Update(existing);
         }
 
-        public List<PracticeExercise> GetByLessonId(Guid lessonId)
+        public List<PracticeExercise> GetByLessonId(int lessonId)
         {
             return _repo.GetByLessonId(lessonId).ToList();
         }

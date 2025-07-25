@@ -12,9 +12,9 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Interfaces
     {
         void Add(Survey survey);
         List<Survey> GetAll();
-        Survey GetById(Guid id);
-        bool Delete(Guid id);
+        Survey GetById(int id);
+        bool Delete(int id);
         bool Update(Survey survey);
-        List<SurveyQuestion> GetSurveyQuestionsWithAllDetails(Guid surveyId);
+        List<SurveyQuestion> GetSurveyQuestionsWithAllDetails(int surveyId);
     }
 }

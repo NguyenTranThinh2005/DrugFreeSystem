@@ -11,9 +11,9 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Interfaces.Quizzes
     {
         void Add(QuizOption quizOption);
         List<QuizOption> GetAll();
-        QuizOption GetById(Guid id);
+        QuizOption GetById(int id);
         bool Update(QuizOption quizOption);
-        bool Delete(Guid id);
+        bool Delete(int id);
     }
 
 }

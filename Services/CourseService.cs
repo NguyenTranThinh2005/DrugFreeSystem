@@ -25,15 +25,13 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _courseRepository.GetAll();
         }
 
-        public Course? GetById(Guid id)
+        public Course? GetById(int id)
         {
             return _courseRepository.GetById(id);
         }
 
         public void Add(Course course)
         {
-            course.CourseId = Guid.NewGuid();
-            course.CreatedAt = DateTime.Now;
             _courseRepository.Create(course);
         }
 
@@ -58,7 +56,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return true;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             _courseRepository.Delete(id);
             return true;

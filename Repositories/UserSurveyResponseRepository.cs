@@ -11,9 +11,9 @@ namespace Repositories
 {
     public class UserSurveyResponseRepository : IUserSurveyResponseRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public UserSurveyResponseRepository(DrugFreeSystemDbContext context)
+        public UserSurveyResponseRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -30,7 +30,7 @@ namespace Repositories
             return _context.UserSurveyResponses.ToList();
         }
 
-        public UserSurveyResponse? GetById(Guid id)
+        public UserSurveyResponse? GetById(int id)
         {
             return _context.UserSurveyResponses.FirstOrDefault(r => r.ResponseId == id);
         }
@@ -42,7 +42,7 @@ namespace Repositories
             return true;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var response = _context.UserSurveyResponses.Find(id);
             if (response != null)
@@ -54,7 +54,7 @@ namespace Repositories
             return false;
         }
 
-        public UserSurveyResponse? GetByIdWithAnswers(Guid id)
+        public UserSurveyResponse? GetByIdWithAnswers(int id)
         {
             return _context.UserSurveyResponses
                            .Include(r => r.UserSurveyAnswers)
@@ -64,7 +64,7 @@ namespace Repositories
                            .FirstOrDefault(r => r.ResponseId == id);
         }
 
-        public UserSurveyResponse? GetByIdWithAnswersAndSurvey(Guid responseId)
+        public UserSurveyResponse? GetByIdWithAnswersAndSurvey(int responseId)
         {
             return _context.UserSurveyResponses
                            .Include(usr => usr.UserSurveyAnswers)
@@ -75,7 +75,7 @@ namespace Repositories
                            .FirstOrDefault(usr => usr.ResponseId == responseId);
         }
 
-        public List<UserSurveyResponse> GetByUserIdWithSurvey(Guid userId)
+        public List<UserSurveyResponse> GetByUserIdWithSurvey(int userId)
         {
             return _context.UserSurveyResponses
                            .Where(usr => usr.UserId == userId)

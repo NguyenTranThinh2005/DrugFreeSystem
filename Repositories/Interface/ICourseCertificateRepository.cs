@@ -8,11 +8,11 @@ namespace Repositories.Interface
     {
         CourseCertificate? Add(CourseCertificate entity);
         List<CourseCertificate> GetAll();
-        CourseCertificate? GetById(Guid id);
+        CourseCertificate? GetById(int id);
         bool Update(CourseCertificate entity);
-        bool Delete(Guid id);
-        List<CourseCertificate> GetByUserId(Guid userId);
-        List<CourseCertificate> GetByCourseId(Guid courseId);
-        CourseCertificate? GetByUserIdAndCourseId(Guid userId, Guid courseId);
+        bool Delete(int id);
+        List<CourseCertificate> GetByUserId(int userId);
+        List<CourseCertificate> GetByCourseId(int courseId);
+        CourseCertificate? GetByUserIdAndCourseId(int userId, int courseId);
     }
 }

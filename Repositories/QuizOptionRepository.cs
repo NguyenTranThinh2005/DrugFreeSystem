@@ -9,9 +9,9 @@ namespace Repositories
 {
     public class QuizOptionRepository : IQuizOptionRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public QuizOptionRepository(DrugFreeSystemDbContext context)
+        public QuizOptionRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -21,7 +21,7 @@ namespace Repositories
             return _context.QuizOptions.ToList();
         }
 
-        public QuizOption? GetById(Guid id)
+        public QuizOption? GetById(int id)
         {
             return _context.QuizOptions.FirstOrDefault(q => q.OptionId == id);
         }
@@ -44,7 +44,7 @@ namespace Repositories
             return true;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var option = _context.QuizOptions.FirstOrDefault(q => q.OptionId == id);
             if (option == null)

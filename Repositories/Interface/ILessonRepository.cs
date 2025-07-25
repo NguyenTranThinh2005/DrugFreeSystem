@@ -8,8 +8,8 @@ namespace Repositories.Interface.LessonRepo
     {
         Lesson? Add(Lesson lesson);
         List<Lesson> GetAll();
-        Lesson? GetById(Guid id);
+        Lesson? GetById(int id);
         bool Update(Lesson lesson);
-        bool Delete(Guid id);
+        bool Delete(int id);
     }
 }

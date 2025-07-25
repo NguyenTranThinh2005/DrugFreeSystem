@@ -10,9 +10,9 @@ namespace Repositories
 {
     public class UserQuizAnswerRepository : IUserQuizAnswerRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public UserQuizAnswerRepository(DrugFreeSystemDbContext context)
+        public UserQuizAnswerRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -24,7 +24,7 @@ namespace Repositories
             return userQuizAnswer;
         }
 
-        public bool DeleteUserQuizAnswer(Guid userQuizAnswerId)
+        public bool DeleteUserQuizAnswer(int userQuizAnswerId)
         {
             var item = _context.UserQuizAnswers
                 .FirstOrDefault(qa => qa.UserQuizAnswerId == userQuizAnswerId);
@@ -39,7 +39,7 @@ namespace Repositories
             return false;
         }
 
-        public UserQuizAnswer? GetUserQuizAnswerById(Guid userQuizAnswerId)
+        public UserQuizAnswer? GetUserQuizAnswerById(int userQuizAnswerId)
         {
             return _context.UserQuizAnswers
                 .FirstOrDefault(qa => qa.UserQuizAnswerId == userQuizAnswerId);
@@ -50,21 +50,21 @@ namespace Repositories
             return _context.UserQuizAnswers.ToList();
         }
 
-        public List<UserQuizAnswer> GetUserQuizAnswersByUserId(Guid userId)
+        public List<UserQuizAnswer> GetUserQuizAnswersByUserId(int userId)
         {
             return _context.UserQuizAnswers
                 .Where(qa => qa.UserId == userId)
                 .ToList();
         }
 
-        public List<UserQuizAnswer> GetUserQuizAnswersByQuestionId(Guid questionId)
+        public List<UserQuizAnswer> GetUserQuizAnswersByQuestionId(int questionId)
         {
             return _context.UserQuizAnswers
                 .Where(qa => qa.QuestionId == questionId)
                 .ToList();
         }
 
-        public List<UserQuizAnswer> GetUserQuizAnswersByUserIdAndQuizId(Guid userId, Guid quizId)
+        public List<UserQuizAnswer> GetUserQuizAnswersByUserIdAndQuizId(int userId, int quizId)
         {
             return _context.UserQuizAnswers
                 .Include(qa => qa.Question)
@@ -72,7 +72,7 @@ namespace Repositories
                 .ToList();
         }
 
-        public List<UserQuizAnswer> GetUserQuizAnswersForQuizAttempt(Guid userId, Guid quizId, DateTime takenAt)
+        public List<UserQuizAnswer> GetUserQuizAnswersForQuizAttempt(int userId, int quizId, DateTime takenAt)
         {
             return _context.UserQuizAnswers
                 .Include(qa => qa.Question)

@@ -23,14 +23,13 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _lessonResourceRepository.GetAll();
         }
 
-        public LessonResource? GetById(Guid id)
+        public LessonResource? GetById(int id)
         {
             return _lessonResourceRepository.GetById(id);
         }
 
         public void Add(LessonResource resource)
         {
-            resource.ResourceId = Guid.NewGuid();
             _lessonResourceRepository.Add(resource);
         }
 
@@ -39,12 +38,12 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _lessonResourceRepository.Update(resource);
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             return _lessonResourceRepository.Delete(id);
         }
 
-        public List<LessonResource> GetByLessonId(Guid lessonId)
+        public List<LessonResource> GetByLessonId(int lessonId)
         {
             return _lessonResourceRepository.GetByLessonId(lessonId);
         }

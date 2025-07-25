@@ -18,8 +18,6 @@ namespace DrugPreventionSystem.BusinessLogic.Services
 
         public void Add(SurveyQuestion question)
         {
-            question.QuestionId = Guid.NewGuid();
-            question.CreatedAt = DateTime.Now;
             _surveyQuestionRepository.AddSurveyQuestion(question);
         }
 
@@ -28,12 +26,12 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _surveyQuestionRepository.GetAllSurveyQuestions();
         }
 
-        public SurveyQuestion GetById(Guid id)
+        public SurveyQuestion GetById(int id)
         {
             return _surveyQuestionRepository.GetSurveyQuestionById(id);
         }
 
-        public List<SurveyQuestion> GetBySurveyId(Guid surveyId)
+        public List<SurveyQuestion> GetBySurveyId(int surveyId)
         {
             return _surveyQuestionRepository.GetSurveyQuestionsBySurveyId(surveyId);
         }
@@ -51,7 +49,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _surveyQuestionRepository.UpdateSurveyQuestion(existing);
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             return _surveyQuestionRepository.DeleteSurveyQuestion(id);
         }

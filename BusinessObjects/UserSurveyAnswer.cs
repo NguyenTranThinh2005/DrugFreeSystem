@@ -5,13 +5,13 @@ namespace BusinessObjects;
 
 public partial class UserSurveyAnswer
 {
-    public Guid AnswerId { get; set; }
+    public int AnswerId { get; set; }
 
-    public Guid ResponseId { get; set; }
+    public int ResponseId { get; set; }
 
-    public Guid QuestionId { get; set; }
+    public int QuestionId { get; set; }
 
-    public Guid? OptionId { get; set; }
+    public int? OptionId { get; set; }
 
     public string? AnswerText { get; set; }
 

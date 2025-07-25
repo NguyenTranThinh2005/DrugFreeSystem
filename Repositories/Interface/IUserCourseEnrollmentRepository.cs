@@ -8,11 +8,11 @@ namespace Repositories.Interface.UserRepo
     {
         UserCourseEnrollment Add(UserCourseEnrollment entity);
         List<UserCourseEnrollment> GetAll();
-        UserCourseEnrollment? GetById(Guid id);
+        UserCourseEnrollment? GetById(int id);
         bool Update(UserCourseEnrollment entity);
-        bool Delete(Guid id);
-        List<UserCourseEnrollment> GetByUserId(Guid userId);
-        List<UserCourseEnrollment> GetByCourseId(Guid courseId);
-        UserCourseEnrollment? GetByUserIdAndCourseId(Guid userId, Guid courseId);
+        bool Delete(int id);
+        List<UserCourseEnrollment> GetByUserId(int userId);
+        List<UserCourseEnrollment> GetByCourseId(int courseId);
+        UserCourseEnrollment? GetByUserIdAndCourseId(int userId, int courseId);
     }
 }

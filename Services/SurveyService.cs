@@ -25,11 +25,6 @@ namespace DrugPreventionSystem.BusinessLogic.Services
         public void Add(Survey survey)
         {
             if (survey == null) return;
-
-            survey.SurveyId = Guid.NewGuid();
-            survey.CreatedAt = DateTime.Now;
-            survey.UpdatedAt = DateTime.Now;
-
             _surveyRepository.AddNewSurvey(survey);
         }
 
@@ -38,12 +33,12 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _surveyRepository.GetAllSurvey();
         }
 
-        public Survey GetById(Guid id)
+        public Survey GetById(int id)
         {
             return _surveyRepository.GetSurveyById(id);
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             return _surveyRepository.DeleteSurveyById(id);
         }
@@ -60,7 +55,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _surveyRepository.UpdateSurvey(survey);
         }
 
-        public List<SurveyQuestion> GetSurveyQuestionsWithAllDetails(Guid surveyId)
+        public List<SurveyQuestion> GetSurveyQuestionsWithAllDetails(int surveyId)
         {
             return _surveyQuestionRepository.GetSurveyQuestionsWithAllDetailsBySurveyId(surveyId);
         }

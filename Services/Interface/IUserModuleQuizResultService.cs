@@ -11,11 +11,11 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Interfaces
     public interface IUserModuleQuizResultService
     {
         List<UserModuleQuizResult> GetAll();
-        UserModuleQuizResult? GetById(Guid resultId);
-        List<UserModuleQuizResult> GetByUserId(Guid userId);
-        List<UserModuleQuizResult> GetByLessonId(Guid lessonId);
+        UserModuleQuizResult? GetById(int resultId);
+        List<UserModuleQuizResult> GetByUserId(int userId);
+        List<UserModuleQuizResult> GetByLessonId(int lessonId);
         void Add(UserModuleQuizResult result);
         bool Update(UserModuleQuizResult result);
-        bool Delete(Guid resultId);
+        bool Delete(int resultId);
     }
 }

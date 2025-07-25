@@ -10,9 +10,9 @@ namespace Repositories
 {
     public class SurveyQuestionRepository : ISurveyQuestionRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public SurveyQuestionRepository(DrugFreeSystemDbContext context)
+        public SurveyQuestionRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -22,12 +22,12 @@ namespace Repositories
             return _context.SurveyQuestions.ToList();
         }
 
-        public SurveyQuestion? GetSurveyQuestionById(Guid id)
+        public SurveyQuestion? GetSurveyQuestionById(int id)
         {
             return _context.SurveyQuestions.FirstOrDefault(q => q.QuestionId == id);
         }
 
-        public List<SurveyQuestion> GetSurveyQuestionsBySurveyId(Guid surveyId)
+        public List<SurveyQuestion> GetSurveyQuestionsBySurveyId(int surveyId)
         {
             return _context.SurveyQuestions
                 .Where(q => q.SurveyId == surveyId)
@@ -52,7 +52,7 @@ namespace Repositories
             return true;
         }
 
-        public bool DeleteSurveyQuestion(Guid id)
+        public bool DeleteSurveyQuestion(int id)
         {
             var question = _context.SurveyQuestions.Find(id);
             if (question == null) return false;
@@ -62,7 +62,7 @@ namespace Repositories
             return true;
         }
 
-        public List<SurveyQuestion> GetSurveyQuestionsWithAllDetailsBySurveyId(Guid surveyId)
+        public List<SurveyQuestion> GetSurveyQuestionsWithAllDetailsBySurveyId(int surveyId)
         {
             return _context.SurveyQuestions
                 .Where(q => q.SurveyId == surveyId)

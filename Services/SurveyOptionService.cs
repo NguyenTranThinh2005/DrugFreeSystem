@@ -20,7 +20,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _surveyOptionRepository.GetAll();
         }
 
-        public SurveyOption? GetById(Guid id)
+        public SurveyOption? GetById(int id)
         {
             return _surveyOptionRepository.GetById(id);
         }
@@ -35,12 +35,12 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _surveyOptionRepository.Update(option);
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             return _surveyOptionRepository.Delete(id);
         }
 
-        public List<SurveyOption> GetByQuestionId(Guid questionId)
+        public List<SurveyOption> GetByQuestionId(int questionId)
         {
             return _surveyOptionRepository.GetByQuestionId(questionId);
         }

@@ -9,9 +9,9 @@ namespace DrugPreventionSystem.DataAccess.Repository.Interfaces
     {
         PracticeExercise? Add(PracticeExercise entity);
         List<PracticeExercise> GetAll();
-        PracticeExercise? GetById(Guid id);
+        PracticeExercise? GetById(int id);
         bool Update(PracticeExercise entity);
-        bool Delete(Guid id);
-        List<PracticeExercise> GetByLessonId(Guid lessonId);
+        bool Delete(int id);
+        List<PracticeExercise> GetByLessonId(int lessonId);
     }
 } 

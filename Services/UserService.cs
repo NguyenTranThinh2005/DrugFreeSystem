@@ -20,7 +20,7 @@ namespace DrugPreventionSystem.DataAccess.Repositories
 
         public List<User> GetAll() => _repo.GetAll();
 
-        public User? GetById(Guid id) => _repo.GetById(id);
+        public User? GetById(int id) => _repo.GetById(id);
 
         public User? GetByEmail(string email) => _repo.GetByEmail(email);
 
@@ -30,7 +30,7 @@ namespace DrugPreventionSystem.DataAccess.Repositories
 
         public bool Update(User user) => _repo.Update(user);
 
-        public bool Delete(Guid id) => _repo.Delete(id);
+        public bool Delete(int id) => _repo.Delete(id);
 
         public string Login(string email, string password)
         {
@@ -59,7 +59,7 @@ namespace DrugPreventionSystem.DataAccess.Repositories
 
             var user = new User
             {
-                UserId = Guid.NewGuid(),
+
                 Username = username,
                 Email = email,
                 Password= password,

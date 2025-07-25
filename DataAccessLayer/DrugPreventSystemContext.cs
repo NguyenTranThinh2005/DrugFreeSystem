@@ -6,13 +6,13 @@ using Microsoft.Extensions.Configuration;
 
 namespace DataAccessLayer;
 
-public partial class DrugFreeSystemDbContext : DbContext
+public partial class DrugPreventSystemContext : DbContext
 {
-    public DrugFreeSystemDbContext()
+    public DrugPreventSystemContext()
     {
     }
 
-    public DrugFreeSystemDbContext(DbContextOptions<DrugFreeSystemDbContext> options)
+    public DrugPreventSystemContext(DbContextOptions<DrugPreventSystemContext> options)
         : base(options)
     {
     }
@@ -62,6 +62,7 @@ public partial class DrugFreeSystemDbContext : DbContext
             .AddJsonFile("appsettings.json", true, true).Build();
         return configuration["ConnectionStrings:DefaultConnectionString"];
     }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseSqlServer(GetConnectionString());
@@ -71,13 +72,11 @@ public partial class DrugFreeSystemDbContext : DbContext
     {
         modelBuilder.Entity<Course>(entity =>
         {
-            entity.HasKey(e => e.CourseId).HasName("PK__courses__8F1EF7AE9703E959");
+            entity.HasKey(e => e.CourseId).HasName("PK__courses__8F1EF7AED4CD3400");
 
             entity.ToTable("courses");
 
-            entity.Property(e => e.CourseId)
-                .ValueGeneratedNever()
-                .HasColumnName("course_id");
+            entity.Property(e => e.CourseId).HasColumnName("course_id");
             entity.Property(e => e.AgeGroup)
                 .HasMaxLength(100)
                 .HasColumnName("age_group");
@@ -107,13 +106,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<CourseCertificate>(entity =>
         {
-            entity.HasKey(e => e.CertificateId).HasName("PK__course_c__E2256D31C6815E6B");
+            entity.HasKey(e => e.CertificateId).HasName("PK__course_c__E2256D3142EFFC72");
 
             entity.ToTable("course_certificates");
 
-            entity.Property(e => e.CertificateId)
-                .ValueGeneratedNever()
-                .HasColumnName("certificate_id");
+            entity.Property(e => e.CertificateId).HasColumnName("certificate_id");
             entity.Property(e => e.CertificateUrl)
                 .HasMaxLength(500)
                 .HasColumnName("certificate_url");
@@ -137,13 +134,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<Lesson>(entity =>
         {
-            entity.HasKey(e => e.LessonId).HasName("PK__lessons__6421F7BEA6831488");
+            entity.HasKey(e => e.LessonId).HasName("PK__lessons__6421F7BEA6DEB8B8");
 
             entity.ToTable("lessons");
 
-            entity.Property(e => e.LessonId)
-                .ValueGeneratedNever()
-                .HasColumnName("lesson_id");
+            entity.Property(e => e.LessonId).HasColumnName("lesson_id");
             entity.Property(e => e.Content).HasColumnName("content");
             entity.Property(e => e.CourseId).HasColumnName("course_id");
             entity.Property(e => e.CreatedAt)
@@ -169,13 +164,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<LessonResource>(entity =>
         {
-            entity.HasKey(e => e.ResourceId).HasName("PK__lesson_r__4985FC7360868932");
+            entity.HasKey(e => e.ResourceId).HasName("PK__lesson_r__4985FC7378339026");
 
             entity.ToTable("lesson_resources");
 
-            entity.Property(e => e.ResourceId)
-                .ValueGeneratedNever()
-                .HasColumnName("resource_id");
+            entity.Property(e => e.ResourceId).HasColumnName("resource_id");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
@@ -200,13 +193,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<PracticeExercise>(entity =>
         {
-            entity.HasKey(e => e.ExerciseId).HasName("PK__practice__C121418E9871FD0D");
+            entity.HasKey(e => e.ExerciseId).HasName("PK__practice__C121418E1C507E9A");
 
             entity.ToTable("practice_exercises");
 
-            entity.Property(e => e.ExerciseId)
-                .ValueGeneratedNever()
-                .HasColumnName("exercise_id");
+            entity.Property(e => e.ExerciseId).HasColumnName("exercise_id");
             entity.Property(e => e.AttachmentUrl)
                 .HasMaxLength(500)
                 .HasColumnName("attachment_url");
@@ -225,15 +216,13 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<Quiz>(entity =>
         {
-            entity.HasKey(e => e.QuizId).HasName("PK__quizzes__2D7053EC34D11E07");
+            entity.HasKey(e => e.QuizId).HasName("PK__quizzes__2D7053EC449B7F1C");
 
             entity.ToTable("quizzes");
 
-            entity.HasIndex(e => e.LessonId, "UQ__quizzes__6421F7BF14D4CBF6").IsUnique();
+            entity.HasIndex(e => e.LessonId, "UQ__quizzes__6421F7BFF5247BCA").IsUnique();
 
-            entity.Property(e => e.QuizId)
-                .ValueGeneratedNever()
-                .HasColumnName("quiz_id");
+            entity.Property(e => e.QuizId).HasColumnName("quiz_id");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
@@ -253,13 +242,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<QuizOption>(entity =>
         {
-            entity.HasKey(e => e.OptionId).HasName("PK__quiz_opt__F4EACE1BDF412636");
+            entity.HasKey(e => e.OptionId).HasName("PK__quiz_opt__F4EACE1BC972F15F");
 
             entity.ToTable("quiz_options");
 
-            entity.Property(e => e.OptionId)
-                .ValueGeneratedNever()
-                .HasColumnName("option_id");
+            entity.Property(e => e.OptionId).HasColumnName("option_id");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
@@ -276,13 +263,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<QuizQuestion>(entity =>
         {
-            entity.HasKey(e => e.QuestionId).HasName("PK__quiz_que__2EC2154947C0A017");
+            entity.HasKey(e => e.QuestionId).HasName("PK__quiz_que__2EC21549472F11EB");
 
             entity.ToTable("quiz_questions");
 
-            entity.Property(e => e.QuestionId)
-                .ValueGeneratedNever()
-                .HasColumnName("question_id");
+            entity.Property(e => e.QuestionId).HasColumnName("question_id");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
@@ -302,7 +287,7 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.RoleId).HasName("PK__roles__760965CC1F4D4402");
+            entity.HasKey(e => e.RoleId).HasName("PK__roles__760965CC72C7FB2B");
 
             entity.ToTable("roles");
 
@@ -329,13 +314,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<Survey>(entity =>
         {
-            entity.HasKey(e => e.SurveyId).HasName("PK__surveys__9DC31A07C8927044");
+            entity.HasKey(e => e.SurveyId).HasName("PK__surveys__9DC31A0765B7E56D");
 
             entity.ToTable("surveys");
 
-            entity.Property(e => e.SurveyId)
-                .ValueGeneratedNever()
-                .HasColumnName("survey_id");
+            entity.Property(e => e.SurveyId).HasColumnName("survey_id");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
@@ -357,13 +340,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<SurveyOption>(entity =>
         {
-            entity.HasKey(e => e.OptionId).HasName("PK__survey_o__F4EACE1BCA43F941");
+            entity.HasKey(e => e.OptionId).HasName("PK__survey_o__F4EACE1BD97B1FF4");
 
             entity.ToTable("survey_options");
 
-            entity.Property(e => e.OptionId)
-                .ValueGeneratedNever()
-                .HasColumnName("option_id");
+            entity.Property(e => e.OptionId).HasColumnName("option_id");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
@@ -385,13 +366,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<SurveyQuestion>(entity =>
         {
-            entity.HasKey(e => e.QuestionId).HasName("PK__survey_q__2EC21549B3E020D7");
+            entity.HasKey(e => e.QuestionId).HasName("PK__survey_q__2EC215494A3A9941");
 
             entity.ToTable("survey_questions");
 
-            entity.Property(e => e.QuestionId)
-                .ValueGeneratedNever()
-                .HasColumnName("question_id");
+            entity.Property(e => e.QuestionId).HasColumnName("question_id");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
@@ -414,13 +393,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__users__B9BE370F5A607F53");
+            entity.HasKey(e => e.UserId).HasName("PK__users__B9BE370F51C2E6DF");
 
             entity.ToTable("users");
 
-            entity.Property(e => e.UserId)
-                .ValueGeneratedNever()
-                .HasColumnName("user_id");
+            entity.Property(e => e.UserId).HasColumnName("user_id");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
@@ -451,13 +428,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<UserCourseEnrollment>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__user_cou__3213E83F2BFC718A");
+            entity.HasKey(e => e.Id).HasName("PK__user_cou__3213E83F0D08B177");
 
             entity.ToTable("user_course_enrollments");
 
-            entity.Property(e => e.Id)
-                .ValueGeneratedNever()
-                .HasColumnName("id");
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.CompletedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("completed_at");
@@ -488,13 +463,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<UserLessonProgress>(entity =>
         {
-            entity.HasKey(e => e.ProgressId).HasName("PK__user_les__49B3D8C1530C1F99");
+            entity.HasKey(e => e.ProgressId).HasName("PK__user_les__49B3D8C1331D7A75");
 
             entity.ToTable("user_lesson_progress");
 
-            entity.Property(e => e.ProgressId)
-                .ValueGeneratedNever()
-                .HasColumnName("progress_id");
+            entity.Property(e => e.ProgressId).HasColumnName("progress_id");
             entity.Property(e => e.CompletedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("completed_at");
@@ -520,13 +493,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<UserModuleQuizResult>(entity =>
         {
-            entity.HasKey(e => e.ResultId).HasName("PK__user_mod__AFB3C3164E09E8A7");
+            entity.HasKey(e => e.ResultId).HasName("PK__user_mod__AFB3C316D3E46A36");
 
             entity.ToTable("user_module_quiz_result");
 
-            entity.Property(e => e.ResultId)
-                .ValueGeneratedNever()
-                .HasColumnName("result_id");
+            entity.Property(e => e.ResultId).HasColumnName("result_id");
             entity.Property(e => e.CorrectCount).HasColumnName("correct_count");
             entity.Property(e => e.LessonId).HasColumnName("lesson_id");
             entity.Property(e => e.Status)
@@ -553,13 +524,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<UserQuizAnswer>(entity =>
         {
-            entity.HasKey(e => e.UserQuizAnswerId).HasName("PK__user_qui__CDA5BE2A4B0D70E8");
+            entity.HasKey(e => e.UserQuizAnswerId).HasName("PK__user_qui__CDA5BE2AC483B729");
 
             entity.ToTable("user_quiz_answers");
 
-            entity.Property(e => e.UserQuizAnswerId)
-                .ValueGeneratedNever()
-                .HasColumnName("user_quiz_answer_id");
+            entity.Property(e => e.UserQuizAnswerId).HasColumnName("user_quiz_answer_id");
             entity.Property(e => e.AnswerText).HasColumnName("answer_text");
             entity.Property(e => e.AnsweredAt)
                 .HasDefaultValueSql("(getdate())")
@@ -586,13 +555,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<UserSurveyAnswer>(entity =>
         {
-            entity.HasKey(e => e.AnswerId).HasName("PK__user_sur__33724318BEB94764");
+            entity.HasKey(e => e.AnswerId).HasName("PK__user_sur__337243183E0218F9");
 
             entity.ToTable("user_survey_answers");
 
-            entity.Property(e => e.AnswerId)
-                .ValueGeneratedNever()
-                .HasColumnName("answer_id");
+            entity.Property(e => e.AnswerId).HasColumnName("answer_id");
             entity.Property(e => e.AnswerText).HasColumnName("answer_text");
             entity.Property(e => e.AnsweredAt)
                 .HasDefaultValueSql("(getdate())")
@@ -619,13 +586,11 @@ public partial class DrugFreeSystemDbContext : DbContext
 
         modelBuilder.Entity<UserSurveyResponse>(entity =>
         {
-            entity.HasKey(e => e.ResponseId).HasName("PK__user_sur__EBECD896A214EC12");
+            entity.HasKey(e => e.ResponseId).HasName("PK__user_sur__EBECD8963707377E");
 
             entity.ToTable("user_survey_responses");
 
-            entity.Property(e => e.ResponseId)
-                .ValueGeneratedNever()
-                .HasColumnName("response_id");
+            entity.Property(e => e.ResponseId).HasColumnName("response_id");
             entity.Property(e => e.RecommendedAction)
                 .HasMaxLength(500)
                 .HasColumnName("recommended_action");

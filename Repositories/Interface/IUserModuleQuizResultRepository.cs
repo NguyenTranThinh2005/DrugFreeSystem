@@ -10,12 +10,12 @@ namespace Repositories.Interface.UserRepo
     public interface IUserModuleQuizResultRepository
     {
         List<UserModuleQuizResult> GetUserModuleQuizResults();
-        UserModuleQuizResult? GetUserModuleQuizResultById(Guid resultId);
-        List<UserModuleQuizResult> GetUserModuleQuizResultsByUserId(Guid userId);
-        List<UserModuleQuizResult> GetUserModuleQuizResultsByLessonId(Guid lessonId);
+        UserModuleQuizResult? GetUserModuleQuizResultById(int resultId);
+        List<UserModuleQuizResult> GetUserModuleQuizResultsByUserId(int userId);
+        List<UserModuleQuizResult> GetUserModuleQuizResultsByLessonId(int lessonId);
         UserModuleQuizResult AddUserModuleQuizResult(UserModuleQuizResult userModuleQuizResult);
         UserModuleQuizResult UpdateUserModuleQuizResult(UserModuleQuizResult userModuleQuizResult);
-        bool DeleteUserModuleQuizResult(Guid resultId);
-        UserModuleQuizResult? GetLatestUserModuleQuizResultForLesson(Guid userId, Guid lessonId);
+        bool DeleteUserModuleQuizResult(int resultId);
+        UserModuleQuizResult? GetLatestUserModuleQuizResultForLesson(int userId, int lessonId);
     }
 }

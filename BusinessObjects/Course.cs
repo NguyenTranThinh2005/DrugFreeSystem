@@ -5,7 +5,7 @@ namespace BusinessObjects;
 
 public partial class Course
 {
-    public Guid CourseId { get; set; }
+    public int CourseId { get; set; }
 
     public string Title { get; set; } = null!;
 

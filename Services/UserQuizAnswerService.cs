@@ -24,7 +24,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             _userQuizAnswerRepository.AddUserQuizAnswer(answer);
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             return _userQuizAnswerRepository.DeleteUserQuizAnswer(id);
         }
@@ -34,17 +34,17 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _userQuizAnswerRepository.GetUserQuizAnswers();
         }
 
-        public UserQuizAnswer? GetById(Guid id)
+        public UserQuizAnswer? GetById(int id)
         {
             return _userQuizAnswerRepository.GetUserQuizAnswerById(id);
         }
 
-        public List<UserQuizAnswer> GetByQuestionId(Guid questionId)
+        public List<UserQuizAnswer> GetByQuestionId(int questionId)
         {
             return _userQuizAnswerRepository.GetUserQuizAnswersByQuestionId(questionId);
         }
 
-        public List<UserQuizAnswer> GetByUserId(Guid userId)
+        public List<UserQuizAnswer> GetByUserId(int userId)
         {
             return _userQuizAnswerRepository.GetUserQuizAnswersByUserId(userId);
         }
@@ -66,12 +66,12 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             _userQuizAnswerRepository.UpdateUserQuizAnswer(existing);
             return true;
         }
-        public List<UserQuizAnswer> GetByUserIdAndQuizId(Guid userId, Guid quizId)
+        public List<UserQuizAnswer> GetByUserIdAndQuizId(int userId, int quizId)
         {
             return _userQuizAnswerRepository.GetUserQuizAnswersByUserIdAndQuizId(userId, quizId);
         }
 
-        public List<UserQuizAnswer> GetForQuizAttempt(Guid userId, Guid quizId, DateTime takenAt)
+        public List<UserQuizAnswer> GetForQuizAttempt(int userId, int quizId, DateTime takenAt)
         {
             return _userQuizAnswerRepository.GetUserQuizAnswersForQuizAttempt(userId, quizId, takenAt);
         }

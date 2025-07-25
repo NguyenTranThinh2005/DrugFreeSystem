@@ -27,7 +27,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return result != null ? "User survey answer added successfully" : "Failed to add user survey answer";
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var answer = _userSurveyAnswerRepository.GetUserSurveyAnswerById(id);
             if (answer == null)
@@ -44,12 +44,12 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _userSurveyAnswerRepository.GetAllUserSurveyAnswers();
         }
 
-        public UserSurveyAnswer? GetById(Guid id)
+        public UserSurveyAnswer? GetById(int id)
         {
             return _userSurveyAnswerRepository.GetUserSurveyAnswerById(id);
         }
 
-        public List<UserSurveyAnswer> GetByUserId(Guid userId)
+        public List<UserSurveyAnswer> GetByUserId(int userId)
         {
             return _userSurveyAnswerRepository.GetUserSurveyAnswerByUserId(userId);
         }

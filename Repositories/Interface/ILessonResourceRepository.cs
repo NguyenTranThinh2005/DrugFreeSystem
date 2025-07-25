@@ -8,9 +8,9 @@ namespace Repositories.Interface.LessonRepo
     {
         LessonResource? Add(LessonResource entity);
         List<LessonResource> GetAll();
-        LessonResource? GetById(Guid id);
+        LessonResource? GetById(int id);
         bool Update(LessonResource entity);
-        bool Delete(Guid id);
-        List<LessonResource> GetByLessonId(Guid lessonId);
+        bool Delete(int id);
+        List<LessonResource> GetByLessonId(int lessonId);
     }
 }

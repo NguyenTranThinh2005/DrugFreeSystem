@@ -5,11 +5,11 @@ namespace BusinessObjects;
 
 public partial class UserModuleQuizResult
 {
-    public Guid ResultId { get; set; }
+    public int ResultId { get; set; }
 
-    public Guid UserId { get; set; }
+    public int UserId { get; set; }
 
-    public Guid LessonId { get; set; }
+    public int LessonId { get; set; }
 
     public double TotalScore { get; set; }
 

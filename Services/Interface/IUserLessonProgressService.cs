@@ -11,11 +11,11 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Interfaces
     public interface IUserLessonProgressService
     {
         List<UserLessonProgress> GetAll();
-        UserLessonProgress? GetById(Guid progressId);
-        List<UserLessonProgress> GetByUserId(Guid userId);
-        List<UserLessonProgress> GetByLessonId(Guid lessonId);
+        UserLessonProgress? GetById(int progressId);
+        List<UserLessonProgress> GetByUserId(int userId);
+        List<UserLessonProgress> GetByLessonId(int lessonId);
         void Add(UserLessonProgress progress);
         bool Update(UserLessonProgress progress);
-        bool Delete(Guid progressId);
+        bool Delete(int progressId);
     }
 }

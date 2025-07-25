@@ -10,9 +10,9 @@ namespace Repositories
 {
     public class UserLessonProgressRepository : IUserLessonProgressRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public UserLessonProgressRepository(DrugFreeSystemDbContext context)
+        public UserLessonProgressRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -22,19 +22,19 @@ namespace Repositories
             return _context.UserLessonProgresses.ToList();
         }
 
-        public UserLessonProgress? GetUserLessonProgressById(Guid progressId)
+        public UserLessonProgress? GetUserLessonProgressById(int progressId)
         {
             return _context.UserLessonProgresses.FirstOrDefault(ulp => ulp.ProgressId == progressId);
         }
 
-        public List<UserLessonProgress> GetUserLessonProgressByUserId(Guid userId)
+        public List<UserLessonProgress> GetUserLessonProgressByUserId(int userId)
         {
             return _context.UserLessonProgresses
                 .Where(ulp => ulp.UserId == userId)
                 .ToList();
         }
 
-        public List<UserLessonProgress> GetUserLessonProgressByLessonId(Guid lessonId)
+        public List<UserLessonProgress> GetUserLessonProgressByLessonId(int lessonId)
         {
             return _context.UserLessonProgresses
                 .Where(ulp => ulp.LessonId == lessonId)
@@ -55,7 +55,7 @@ namespace Repositories
             return userLessonProgress;
         }
 
-        public bool DeleteUserLessonProgress(Guid progressId)
+        public bool DeleteUserLessonProgress(int progressId)
         {
             var progress = _context.UserLessonProgresses.FirstOrDefault(p => p.ProgressId == progressId);
             if (progress != null)
@@ -67,7 +67,7 @@ namespace Repositories
             return false;
         }
 
-        public List<UserLessonProgress> GetUserLessonProgressByUserIdAndCourseId(Guid userId, Guid courseId)
+        public List<UserLessonProgress> GetUserLessonProgressByUserIdAndCourseId(int userId, int courseId)
         {
             return _context.UserLessonProgresses
                 .Where(ulp => ulp.UserId == userId && ulp.Lesson != null && ulp.Lesson.CourseId == courseId)
@@ -75,7 +75,7 @@ namespace Repositories
                 .ToList();
         }
 
-        public List<UserLessonProgress> GetAllUserLessonProgressesByUserId(Guid userId)
+        public List<UserLessonProgress> GetAllUserLessonProgressesByUserId(int userId)
         {
             return _context.UserLessonProgresses
                 .Where(ulp => ulp.UserId == userId)
@@ -83,13 +83,13 @@ namespace Repositories
                 .ToList();
         }
 
-        public UserLessonProgress? GetUserLessonProgressByUserIdAndLessonId(Guid userId, Guid lessonId)
+        public UserLessonProgress? GetUserLessonProgressByUserIdAndLessonId(int userId, int lessonId)
         {
             return _context.UserLessonProgresses
                 .FirstOrDefault(ulp => ulp.UserId == userId && ulp.LessonId == lessonId);
         }
 
-        public int CountCompletedLessonsForUserInCourse(Guid userId, Guid courseId)
+        public int CountCompletedLessonsForUserInCourse(int userId, int courseId)
         {
             return _context.UserLessonProgresses
                 .Count(ulp => ulp.UserId == userId && ulp.Passed && ulp.Lesson.CourseId == courseId);

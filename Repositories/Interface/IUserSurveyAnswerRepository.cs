@@ -12,10 +12,10 @@ namespace Repositories.Interface.UserRepo
     {
         UserSurveyAnswer AddNewUserSurveyAnswer(UserSurveyAnswer userSurveyAnswer);
         List<UserSurveyAnswer> GetAllUserSurveyAnswers();
-        UserSurveyAnswer? GetUserSurveyAnswerById(Guid id);
-        List<UserSurveyAnswer> GetUserSurveyAnswerByUserId(Guid userId);
-        void DeleteUserSurveyAnswerById(Guid id);
+        UserSurveyAnswer? GetUserSurveyAnswerById(int id);
+        List<UserSurveyAnswer> GetUserSurveyAnswerByUserId(int userId);
+        void DeleteUserSurveyAnswerById(int id);
         void UpdateUserSurveyAnswer(UserSurveyAnswer userSurveyAnswer);
-        List<UserSurveyAnswer> GetUserSurveyAnswerByResponseId(Guid responseId);
+        List<UserSurveyAnswer> GetUserSurveyAnswerByResponseId(int responseId);
     }
 }

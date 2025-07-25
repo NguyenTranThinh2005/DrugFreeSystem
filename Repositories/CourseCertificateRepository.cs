@@ -9,9 +9,9 @@ namespace Repositories
 {
     public class CourseCertificateRepository : ICourseCertificateRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public CourseCertificateRepository(DrugFreeSystemDbContext context)
+        public CourseCertificateRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -28,7 +28,7 @@ namespace Repositories
             return _context.CourseCertificates.ToList();
         }
 
-        public CourseCertificate? GetById(Guid id)
+        public CourseCertificate? GetById(int id)
         {
             return _context.CourseCertificates.Find(id);
         }
@@ -43,7 +43,7 @@ namespace Repositories
             return true;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var entity = _context.CourseCertificates.Find(id);
             if (entity == null) return false;
@@ -53,17 +53,17 @@ namespace Repositories
             return true;
         }
 
-        public List<CourseCertificate> GetByUserId(Guid userId)
+        public List<CourseCertificate> GetByUserId(int userId)
         {
             return _context.CourseCertificates.Where(x => x.UserId == userId).ToList();
         }
 
-        public List<CourseCertificate> GetByCourseId(Guid courseId)
+        public List<CourseCertificate> GetByCourseId(int courseId)
         {
             return _context.CourseCertificates.Where(x => x.CourseId == courseId).ToList();
         }
 
-        public CourseCertificate? GetByUserIdAndCourseId(Guid userId, Guid courseId)
+        public CourseCertificate? GetByUserIdAndCourseId(int userId, int courseId)
         {
             return _context.CourseCertificates
                 .FirstOrDefault(cc => cc.UserId == userId && cc.CourseId == courseId);

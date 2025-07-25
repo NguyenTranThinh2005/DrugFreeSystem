@@ -10,9 +10,9 @@ namespace Repositories
 {
     public class LessonRepository : ILessonRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public LessonRepository(DrugFreeSystemDbContext context)
+        public LessonRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -31,7 +31,7 @@ namespace Repositories
                 .ToList();
         }
 
-        public Lesson? GetById(Guid id)
+        public Lesson? GetById(int id)
         {
             return _context.Lessons
                 .Include(l => l.LessonResources)
@@ -52,7 +52,7 @@ namespace Repositories
             return true;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var lesson = _context.Lessons.Find(id);
             if (lesson == null)

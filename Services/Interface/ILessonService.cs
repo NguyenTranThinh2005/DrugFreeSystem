@@ -10,8 +10,8 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Interfaces
     {
         void Add(Lesson lesson);
         List<Lesson> GetAll();
-        Lesson GetById(Guid id);
-        bool Delete(Guid id);
+        Lesson GetById(int id);
+        bool Delete(int id);
         bool Update(Lesson lesson);
 
     }

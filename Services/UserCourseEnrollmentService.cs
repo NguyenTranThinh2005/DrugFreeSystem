@@ -21,17 +21,17 @@ namespace DrugPreventionSystem.BusinessLogic.Services
 
         public List<UserCourseEnrollment> GetAll() => _repo.GetAll();
 
-        public UserCourseEnrollment? GetById(Guid id) => _repo.GetById(id);
+        public UserCourseEnrollment? GetById(int id) => _repo.GetById(id);
 
         public void Add(UserCourseEnrollment enrollment) => _repo.Add(enrollment);
 
         public bool Update(UserCourseEnrollment enrollment) => _repo.Update(enrollment);
 
-        public bool Delete(Guid id) => _repo.Delete(id);
+        public bool Delete(int id) => _repo.Delete(id);
 
-        public List<UserCourseEnrollment> GetByUserId(Guid userId) => _repo.GetByUserId(userId);
+        public List<UserCourseEnrollment> GetByUserId(int userId) => _repo.GetByUserId(userId);
 
-        public List<UserCourseEnrollment> GetByCourseId(Guid courseId) => _repo.GetByCourseId(courseId);
+        public List<UserCourseEnrollment> GetByCourseId(int courseId) => _repo.GetByCourseId(courseId);
 
     }
 } 

@@ -5,11 +5,11 @@ namespace BusinessObjects;
 
 public partial class UserCourseEnrollment
 {
-    public Guid Id { get; set; }
+    public int Id { get; set; }
 
-    public Guid UserId { get; set; }
+    public int UserId { get; set; }
 
-    public Guid CourseId { get; set; }
+    public int CourseId { get; set; }
 
     public DateTime EnrolledAt { get; set; }
 

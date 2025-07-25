@@ -6,10 +6,10 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Interfaces
     public interface ISurveyOptionService
     {
         List<SurveyOption> GetAll();
-        SurveyOption? GetById(Guid id);
+        SurveyOption? GetById(int id);
         void Add(SurveyOption option);
         bool Update(SurveyOption option);
-        bool Delete(Guid id);
-        List<SurveyOption> GetByQuestionId(Guid questionId);
+        bool Delete(int id);
+        List<SurveyOption> GetByQuestionId(int questionId);
     }
 } 

@@ -11,11 +11,11 @@ namespace Repositories.Interface.QuizRepo
     public interface IQuizRepository
     {
         List<Quiz> GetAll();
-        Quiz? GetById(Guid id);
+        Quiz? GetById(int id);
         Quiz Create(Quiz quiz);
         bool Update(Quiz quiz);
-        bool Delete(Guid id);
-        Quiz? GetQuizByLessonId(Guid lessonId);
-        Quiz? GetQuizWithQuestionsAndOptionsByLessonId(Guid lessonId);
+        bool Delete(int id);
+        Quiz? GetQuizByLessonId(int lessonId);
+        Quiz? GetQuizWithQuestionsAndOptionsByLessonId(int lessonId);
     }
 }

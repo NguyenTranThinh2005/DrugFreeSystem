@@ -7,10 +7,10 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Interfaces
     public interface IUserSurveyAnswerService
     {
         List<UserSurveyAnswer> GetAll();
-        UserSurveyAnswer? GetById(Guid id);
-        List<UserSurveyAnswer> GetByUserId(Guid userId);
+        UserSurveyAnswer? GetById(int id);
+        List<UserSurveyAnswer> GetByUserId(int userId);
         string Add(UserSurveyAnswer userSurveyAnswer);
         bool Update(UserSurveyAnswer userSurveyAnswer);
-        bool Delete(Guid id);
+        bool Delete(int id);
     }
 }

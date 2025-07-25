@@ -11,9 +11,9 @@ namespace Repositories
 {
     public class CourseRepository : ICourseRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public CourseRepository(DrugFreeSystemDbContext context)
+        public CourseRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -32,7 +32,7 @@ namespace Repositories
                 .ToList();
         }
 
-        public Course? GetById(Guid id)
+        public Course? GetById(int id)
         {
             return _context.Courses
                 .Include(c => c.Lessons)
@@ -45,7 +45,7 @@ namespace Repositories
             _context.SaveChanges();
         }
 
-        public void Delete(Guid id)
+        public void Delete(int id)
         {
             var course = _context.Courses.FirstOrDefault(c => c.CourseId == id);
             if (course != null)
@@ -68,7 +68,7 @@ namespace Repositories
             return query.ToList();
         }
 
-        public Course? GetCourseContentForEdit(Guid courseId)
+        public Course? GetCourseContentForEdit(int courseId)
         {
             return _context.Courses
                 .Include(c => c.Lessons.OrderBy(l => l.Sequence))

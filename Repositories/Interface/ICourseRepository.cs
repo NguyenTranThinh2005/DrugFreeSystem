@@ -8,10 +8,10 @@ namespace Repositories.Interface
     {
         Course? Create(Course course);
         void Update(Course course);
-        void Delete(Guid id);
+        void Delete(int id);
         List<Course> GetAll();
-        Course? GetById(Guid id);
+        Course? GetById(int id);
         List<Course> GetAllActiveCoursesWithAgeGroup(string? ageGroup = null);
-        Course? GetCourseContentForEdit(Guid courseId);
+        Course? GetCourseContentForEdit(int courseId);
     }
 }

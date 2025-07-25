@@ -23,9 +23,6 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Quizzes
         {
             if (quizOption == null)
                 throw new ArgumentNullException(nameof(quizOption));
-
-            quizOption.OptionId = Guid.NewGuid();
-            quizOption.CreatedAt = DateTime.Now;
             _quizOptionRepository.Create(quizOption);
         }
 
@@ -34,7 +31,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Quizzes
             return _quizOptionRepository.GetAll().ToList();
         }
 
-        public QuizOption GetById(Guid id)
+        public QuizOption GetById(int id)
         {
             var option = _quizOptionRepository.GetById(id);
             if (option == null)
@@ -55,7 +52,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Quizzes
             return _quizOptionRepository.Update(existing);
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var existing = _quizOptionRepository.GetById(id);
             if (existing == null)

@@ -12,9 +12,9 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Interfaces
     {
         void Add(Course course);
         List<Course> GetAll();
-        Course GetById(Guid id);
+        Course GetById(int id);
         bool Update(Course course);
-        bool Delete(Guid id);
+        bool Delete(int id);
         List<Course> GetCoursesByAgeGroup(string ageGroup);
     }
 }

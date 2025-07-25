@@ -10,12 +10,12 @@ namespace Repositories.Interface.UserRepo
     public interface IUserRepository
     {
         List<User> GetAll();
-        User? GetById(Guid id);
+        User? GetById(int id);
         User? GetByEmail(string email);
         User? GetByUsername(string username);
         void Add(User user);
         bool Update(User user);
-        bool Delete(Guid id);
+        bool Delete(int id);
         Role? GetRoleByName(string roleName);
     }
 }

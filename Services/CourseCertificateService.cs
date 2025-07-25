@@ -22,16 +22,16 @@ namespace DrugPreventionSystem.BusinessLogic.Services
 
         public List<CourseCertificate> GetAll() => _repo.GetAll();
 
-        public CourseCertificate? GetById(Guid id) => _repo.GetById(id);
+        public CourseCertificate? GetById(int id) => _repo.GetById(id);
 
         public void Add(CourseCertificate certificate) => _repo.Add(certificate);
 
         public bool Update(CourseCertificate certificate) => _repo.Update(certificate);
 
-        public bool Delete(Guid id) => _repo.Delete(id);
+        public bool Delete(int id) => _repo.Delete(id);
 
-        public List<CourseCertificate> GetByUserId(Guid userId) => _repo.GetByUserId(userId);
+        public List<CourseCertificate> GetByUserId(int userId) => _repo.GetByUserId(userId);
 
-        public List<CourseCertificate> GetByCourseId(Guid courseId) => _repo.GetByCourseId(courseId);
+        public List<CourseCertificate> GetByCourseId(int courseId) => _repo.GetByCourseId(courseId);
     }
 } 

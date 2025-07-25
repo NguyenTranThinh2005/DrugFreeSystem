@@ -10,9 +10,9 @@ namespace Repositories
 {
     public class QuizRepository : IQuizRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public QuizRepository(DrugFreeSystemDbContext context)
+        public QuizRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -22,7 +22,7 @@ namespace Repositories
             return _context.Quizzes.ToList();
         }
 
-        public Quiz? GetById(Guid id)
+        public Quiz? GetById(int id)
         {
             return _context.Quizzes
                 .Include(q => q.QuizQuestions.OrderBy(qq => qq.Sequence))
@@ -48,7 +48,7 @@ namespace Repositories
             return true;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var quiz = _context.Quizzes.FirstOrDefault(q => q.QuizId == id);
             if (quiz == null)
@@ -59,7 +59,7 @@ namespace Repositories
             return true;
         }
 
-        public Quiz? GetQuizByLessonId(Guid lessonId)
+        public Quiz? GetQuizByLessonId(int lessonId)
         {
             return _context.Quizzes
                 .Where(q => q.LessonId == lessonId)
@@ -68,7 +68,7 @@ namespace Repositories
                 .FirstOrDefault();
         }
 
-        public Quiz? GetQuizWithQuestionsAndOptionsByLessonId(Guid lessonId)
+        public Quiz? GetQuizWithQuestionsAndOptionsByLessonId(int lessonId)
         {
             return _context.Quizzes
                 .Include(q => q.QuizQuestions.OrderBy(qq => qq.Sequence))

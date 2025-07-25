@@ -7,9 +7,9 @@ namespace Repositories
 {
     public class SurveyOptionRepository : ISurveyOptionRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public SurveyOptionRepository(DrugFreeSystemDbContext context)
+        public SurveyOptionRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -21,7 +21,7 @@ namespace Repositories
                 .ToList();
         }
 
-        public SurveyOption? GetById(Guid id)
+        public SurveyOption? GetById(int id)
         {
             return _context.SurveyOptions
                 .Include(so => so.Question)
@@ -46,7 +46,7 @@ namespace Repositories
             return true;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var option = _context.SurveyOptions.FirstOrDefault(o => o.OptionId == id);
             if (option == null) return false;
@@ -56,7 +56,7 @@ namespace Repositories
             return true;
         }
 
-        public List<SurveyOption> GetByQuestionId(Guid questionId)
+        public List<SurveyOption> GetByQuestionId(int questionId)
         {
             return _context.SurveyOptions
                 .Where(so => so.QuestionId == questionId)

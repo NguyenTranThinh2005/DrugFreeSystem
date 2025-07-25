@@ -30,7 +30,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return _lessonRepository.GetAll().ToList();
         }
 
-        public Lesson GetById(Guid id)
+        public Lesson GetById(int id)
         {
             var lesson = _lessonRepository.GetById(id);
             if (lesson == null)
@@ -41,7 +41,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             return lesson;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var existing = _lessonRepository.GetById(id);
             if (existing == null)

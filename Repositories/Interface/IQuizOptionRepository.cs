@@ -11,9 +11,9 @@ namespace Repositories.Interface.QuizRepo
     public interface IQuizOptionRepository
     {
         List<QuizOption> GetAll();
-        QuizOption? GetById(Guid id);
+        QuizOption? GetById(int id);
         QuizOption Create(QuizOption option);
         bool Update(QuizOption option);
-        bool Delete(Guid id);
+        bool Delete(int id);
     }
 }

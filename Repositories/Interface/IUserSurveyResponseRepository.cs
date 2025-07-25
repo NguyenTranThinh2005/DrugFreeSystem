@@ -12,12 +12,12 @@ namespace Repositories.Interface.UserRepo
     {
         UserSurveyResponse Create(UserSurveyResponse response);
         List<UserSurveyResponse> GetAll();
-        UserSurveyResponse? GetById(Guid id);
+        UserSurveyResponse? GetById(int id);
         bool Update(UserSurveyResponse response);
-        bool Delete(Guid id);
-        UserSurveyResponse? GetByIdWithAnswers(Guid id);
-        UserSurveyResponse? GetByIdWithAnswersAndSurvey(Guid responseId);
-        List<UserSurveyResponse> GetByUserIdWithSurvey(Guid userId);
+        bool Delete(int id);
+        UserSurveyResponse? GetByIdWithAnswers(int id);
+        UserSurveyResponse? GetByIdWithAnswersAndSurvey(int responseId);
+        List<UserSurveyResponse> GetByUserIdWithSurvey(int userId);
 
     }
 }

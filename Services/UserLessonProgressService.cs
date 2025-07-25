@@ -30,7 +30,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services
         {
             var progress = new UserLessonProgress
             {
-                ProgressId = Guid.NewGuid(),
+
                 UserId = request.UserId,
                 LessonId = request.LessonId,
                 CompletedAt = request.CompletedAt,
@@ -42,22 +42,22 @@ namespace DrugPreventionSystem.BusinessLogic.Services
             _userLessonProgressRepository.AddUserLessonProgress(progress);
         }
 
-        public bool Delete(Guid progressId)
+        public bool Delete(int progressId)
         {
             return _userLessonProgressRepository.DeleteUserLessonProgress(progressId);
         }
 
-        public UserLessonProgress? GetById(Guid progressId)
+        public UserLessonProgress? GetById(int progressId)
         {
             return _userLessonProgressRepository.GetUserLessonProgressById(progressId);
         }
 
-        public List<UserLessonProgress> GetByLessonId(Guid lessonId)
+        public List<UserLessonProgress> GetByLessonId(int lessonId)
         {
             return _userLessonProgressRepository.GetUserLessonProgressByLessonId(lessonId);
         }
 
-        public List<UserLessonProgress> GetByUserId(Guid userId)
+        public List<UserLessonProgress> GetByUserId(int userId)
         {
             return _userLessonProgressRepository.GetUserLessonProgressByUserId(userId);
         }

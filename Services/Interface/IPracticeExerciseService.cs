@@ -9,9 +9,9 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Interfaces
     {
         void Add(PracticeExercise exercise);
         List<PracticeExercise> GetAll();
-        PracticeExercise GetById(Guid id);
-        bool Delete(Guid id);
+        PracticeExercise GetById(int id);
+        bool Delete(int id);
         bool Update(PracticeExercise exercise);
-        List<PracticeExercise> GetByLessonId(Guid lessonId);
+        List<PracticeExercise> GetByLessonId(int lessonId);
     }
 } 

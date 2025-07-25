@@ -5,9 +5,9 @@ namespace BusinessObjects;
 
 public partial class PracticeExercise
 {
-    public Guid ExerciseId { get; set; }
+    public int ExerciseId { get; set; }
 
-    public Guid LessonId { get; set; }
+    public int LessonId { get; set; }
 
     public string? Instruction { get; set; }
 

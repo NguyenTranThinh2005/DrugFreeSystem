@@ -20,8 +20,6 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Quizzes
 
         public void Add(QuizQuestion quizQuestion)
         {
-            quizQuestion.QuestionId = Guid.NewGuid();
-            quizQuestion.CreatedAt = DateTime.Now;
             _quizQuestionRepository.Create(quizQuestion);
         }
 
@@ -30,7 +28,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Quizzes
             return _quizQuestionRepository.GetAll();
         }
 
-        public QuizQuestion GetById(Guid id)
+        public QuizQuestion GetById(int id)
         {
             return _quizQuestionRepository.GetById(id);
         }
@@ -40,7 +38,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Quizzes
             return _quizQuestionRepository.Update(quizQuestion);
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             return _quizQuestionRepository.Delete(id);
         }

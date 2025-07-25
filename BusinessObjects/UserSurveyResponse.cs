@@ -5,11 +5,11 @@ namespace BusinessObjects;
 
 public partial class UserSurveyResponse
 {
-    public Guid ResponseId { get; set; }
+    public int ResponseId { get; set; }
 
-    public Guid UserId { get; set; }
+    public int UserId { get; set; }
 
-    public Guid SurveyId { get; set; }
+    public int SurveyId { get; set; }
 
     public DateTime TakenAt { get; set; }
 

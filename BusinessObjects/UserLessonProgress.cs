@@ -5,11 +5,11 @@ namespace BusinessObjects;
 
 public partial class UserLessonProgress
 {
-    public Guid ProgressId { get; set; }
+    public int ProgressId { get; set; }
 
-    public Guid UserId { get; set; }
+    public int UserId { get; set; }
 
-    public Guid LessonId { get; set; }
+    public int LessonId { get; set; }
 
     public DateTime? CompletedAt { get; set; }
 

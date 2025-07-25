@@ -10,9 +10,9 @@ namespace Repositories
 {
     public class UserCourseEnrollmentRepository : IUserCourseEnrollmentRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public UserCourseEnrollmentRepository(DrugFreeSystemDbContext context)
+        public UserCourseEnrollmentRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -29,7 +29,7 @@ namespace Repositories
             return _context.UserCourseEnrollments.ToList();
         }
 
-        public UserCourseEnrollment? GetById(Guid id)
+        public UserCourseEnrollment? GetById(int id)
         {
             return _context.UserCourseEnrollments.Find(id);
         }
@@ -41,7 +41,7 @@ namespace Repositories
             return true;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var entity = _context.UserCourseEnrollments.Find(id);
             if (entity != null)
@@ -53,7 +53,7 @@ namespace Repositories
             return false;
         }
 
-        public List<UserCourseEnrollment> GetByUserId(Guid userId)
+        public List<UserCourseEnrollment> GetByUserId(int userId)
         {
             return _context.UserCourseEnrollments
                 .Where(x => x.UserId == userId)
@@ -62,14 +62,14 @@ namespace Repositories
                 .ToList();
         }
 
-        public List<UserCourseEnrollment> GetByCourseId(Guid courseId)
+        public List<UserCourseEnrollment> GetByCourseId(int courseId)
         {
             return _context.UserCourseEnrollments
                 .Where(x => x.CourseId == courseId)
                 .ToList();
         }
 
-        public UserCourseEnrollment? GetByUserIdAndCourseId(Guid userId, Guid courseId)
+        public UserCourseEnrollment? GetByUserIdAndCourseId(int userId, int courseId)
         {
             return _context.UserCourseEnrollments
                 .FirstOrDefault(x => x.UserId == userId && x.CourseId == courseId);

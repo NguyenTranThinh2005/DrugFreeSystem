@@ -11,14 +11,14 @@ namespace Repositories.Interface.UserRepo
     public interface IUserQuizAnswerRepository
     {
         List<UserQuizAnswer> GetUserQuizAnswers();
-        UserQuizAnswer? GetUserQuizAnswerById(Guid userQuizAnswerId);
-        List<UserQuizAnswer> GetUserQuizAnswersByUserId(Guid userId);
-        List<UserQuizAnswer> GetUserQuizAnswersByQuestionId(Guid questionId);
+        UserQuizAnswer? GetUserQuizAnswerById(int userQuizAnswerId);
+        List<UserQuizAnswer> GetUserQuizAnswersByUserId(int userId);
+        List<UserQuizAnswer> GetUserQuizAnswersByQuestionId(int questionId);
         UserQuizAnswer AddUserQuizAnswer(UserQuizAnswer userQuizAnswer);
         UserQuizAnswer UpdateUserQuizAnswer(UserQuizAnswer userQuizAnswer);
-        bool DeleteUserQuizAnswer(Guid userQuizAnswerId);
-        List<UserQuizAnswer> GetUserQuizAnswersByUserIdAndQuizId(Guid userId, Guid quizId);
-        List<UserQuizAnswer> GetUserQuizAnswersForQuizAttempt(Guid userId, Guid quizId, DateTime takenAt);
+        bool DeleteUserQuizAnswer(int userQuizAnswerId);
+        List<UserQuizAnswer> GetUserQuizAnswersByUserIdAndQuizId(int userId, int quizId);
+        List<UserQuizAnswer> GetUserQuizAnswersForQuizAttempt(int userId, int quizId, DateTime takenAt);
     }
 
 }

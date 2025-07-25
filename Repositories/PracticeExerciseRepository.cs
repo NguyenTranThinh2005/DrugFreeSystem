@@ -9,9 +9,9 @@ namespace Repositories
 {
     public class PracticeExerciseRepository : IPracticeExerciseRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public PracticeExerciseRepository(DrugFreeSystemDbContext context)
+        public PracticeExerciseRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -28,7 +28,7 @@ namespace Repositories
             return _context.PracticeExercises.ToList();
         }
 
-        public PracticeExercise? GetById(Guid id)
+        public PracticeExercise? GetById(int id)
         {
             return _context.PracticeExercises.Find(id);
         }
@@ -44,7 +44,7 @@ namespace Repositories
             return true;
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             var entity = _context.PracticeExercises.Find(id);
             if (entity == null)
@@ -55,7 +55,7 @@ namespace Repositories
             return true;
         }
 
-        public List<PracticeExercise> GetByLessonId(Guid lessonId)
+        public List<PracticeExercise> GetByLessonId(int lessonId)
         {
             return _context.PracticeExercises
                 .Where(pe => pe.LessonId == lessonId)

@@ -10,9 +10,9 @@ namespace Repositories
 {
     public class SurveyRepository : ISurveyRepository
     {
-        private readonly DrugFreeSystemDbContext _context;
+        private readonly DrugPreventSystemContext _context;
 
-        public SurveyRepository(DrugFreeSystemDbContext context)
+        public SurveyRepository(DrugPreventSystemContext context)
         {
             _context = context;
         }
@@ -24,7 +24,7 @@ namespace Repositories
             return survey;
         }
 
-        public bool DeleteSurveyById(Guid id)
+        public bool DeleteSurveyById(int id)
         {
             var survey = _context.Surveys.Find(id);
             if (survey == null) return false;
@@ -39,7 +39,7 @@ namespace Repositories
             return _context.Surveys.ToList();
         }
 
-        public Survey? GetSurveyById(Guid id)
+        public Survey? GetSurveyById(int id)
         {
             return _context.Surveys.FirstOrDefault(s => s.SurveyId == id);
         }

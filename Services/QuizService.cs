@@ -29,7 +29,7 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Quizzes
             return _quizRepository.GetAll();
         }
 
-        public Quiz GetById(Guid id)
+        public Quiz GetById(int id)
         {
             return _quizRepository.GetById(id);
         }
@@ -39,12 +39,12 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Quizzes
             return _quizRepository.Update(quiz);
         }
 
-        public bool Delete(Guid id)
+        public bool Delete(int id)
         {
             return _quizRepository.Delete(id);
         }
 
-        public Quiz GetQuizByLessonIdForEdit(Guid lessonId)
+        public Quiz GetQuizByLessonIdForEdit(int lessonId)
         {
             return _quizRepository.GetQuizWithQuestionsAndOptionsByLessonId(lessonId);
         }

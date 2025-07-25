@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 public class UserSurveyAnswerRepository : IUserSurveyAnswerRepository
 {
-    private readonly DrugFreeSystemDbContext _context;
+    private readonly DrugPreventSystemContext _context;
 
-    public UserSurveyAnswerRepository(DrugFreeSystemDbContext context)
+    public UserSurveyAnswerRepository(DrugPreventSystemContext context)
     {
         _context = context;
     }
@@ -19,7 +19,7 @@ public class UserSurveyAnswerRepository : IUserSurveyAnswerRepository
         return userSurveyAnswer;
     }
 
-    public void DeleteUserSurveyAnswerById(Guid id)
+    public void DeleteUserSurveyAnswerById(int id)
     {
         var answer = _context.UserSurveyAnswers.Find(id);
         if (answer != null)
@@ -34,12 +34,12 @@ public class UserSurveyAnswerRepository : IUserSurveyAnswerRepository
         return _context.UserSurveyAnswers.ToList();
     }
 
-    public UserSurveyAnswer? GetUserSurveyAnswerById(Guid id)
+    public UserSurveyAnswer? GetUserSurveyAnswerById(int id)
     {
         return _context.UserSurveyAnswers.FirstOrDefault(a => a.AnswerId == id);
     }
 
-    public List<UserSurveyAnswer> GetUserSurveyAnswerByResponseId(Guid responseId)
+    public List<UserSurveyAnswer> GetUserSurveyAnswerByResponseId(int responseId)
     {
         return _context.UserSurveyAnswers
                        .Where(a => a.ResponseId == responseId)
@@ -48,7 +48,7 @@ public class UserSurveyAnswerRepository : IUserSurveyAnswerRepository
                        .ToList();
     }
 
-    public List<UserSurveyAnswer> GetUserSurveyAnswerByUserId(Guid userId)
+    public List<UserSurveyAnswer> GetUserSurveyAnswerByUserId(int userId)
     {
         return _context.UserSurveyAnswers
                        .Include(a => a.Response)
