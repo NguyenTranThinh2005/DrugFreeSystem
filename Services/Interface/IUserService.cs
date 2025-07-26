@@ -8,9 +8,10 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Interfaces
     {
         List<User> GetAll();
         User? GetById(int id);
+        List<Role> GetAllRoles();
         string Register(string username, string email, string password);
         bool Update(User user);
         bool Delete(int id);
-        string Login(string emailOrUsername, string password);
+        string Login(string emailOrUsername, string password, out User? user);
     }
 }

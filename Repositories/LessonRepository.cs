@@ -27,10 +27,10 @@ namespace Repositories
         public List<Lesson> GetAll()
         {
             return _context.Lessons
+                .Include(l => l.Course)
                 .Include(l => l.LessonResources)
                 .ToList();
         }
-
         public Lesson? GetById(int id)
         {
             return _context.Lessons

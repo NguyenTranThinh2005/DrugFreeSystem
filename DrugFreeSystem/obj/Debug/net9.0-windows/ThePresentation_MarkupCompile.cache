@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\App.xaml
-11407045341
+5-1608480673
 
-4-1619271208
+17-1375615263
 239570939690
-MainWindow.xaml;
+Admin\AdminScreen.xaml;Admin\QuizOptionsWindow.xaml;Course\CoursePage\CourseDetailPage.xaml;Course\Dialog\CourseEditDialog.xaml;MainWindow.xaml;
 
-False
+True
 

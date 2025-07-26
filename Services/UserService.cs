@@ -1,5 +1,6 @@
 ﻿
 using BusinessObjects;
+using DataAccessLayer;
 using DrugPreventionSystem.BusinessLogic.Services.Interfaces;
 using Repositories.Interface.UserRepo;
 using System.Collections.Generic;
@@ -12,12 +13,19 @@ namespace DrugPreventionSystem.DataAccess.Repositories
     public class UserService : IUserService
     {
         private readonly IUserRepository _repo;
+        private readonly DrugPreventSystemContext _context;
 
+        public UserService(IUserRepository repo, DrugPreventSystemContext context)
+        {
+            _repo = repo;
+            _context = context;
+        }
         public UserService(IUserRepository repo)
         {
             _repo = repo;
         }
 
+        public List<Role> GetAllRoles() => _context.Roles.ToList();
         public List<User> GetAll() => _repo.GetAll();
 
         public User? GetById(int id) => _repo.GetById(id);
@@ -32,16 +40,12 @@ namespace DrugPreventionSystem.DataAccess.Repositories
 
         public bool Delete(int id) => _repo.Delete(id);
 
-        public string Login(string email, string password)
+        public string Login(string email, string password, out User? user)
         {
-            var user = _repo.GetByEmail(email);
+            user = _repo.GetByEmail(email);
             if (user == null) return "Email không tồn tại.";
-
-            if (user.Password != password )
-                return "Mật khẩu không đúng.";
-
+            if (user.Password != password) return "Mật khẩu không đúng.";
             if (!user.IsActive) return "Tài khoản bị khóa.";
-
             return "Đăng nhập thành công.";
         }
 

@@ -1,0 +1,33 @@
+﻿<Window x:Class="ThePresentation.Admin.QuizOptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThePresentation.Admin"
+        mc:Ignorable="d"
+        Title="QuizOptionsWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ListView x:Name="lvOptions" Grid.Row="0" SelectionChanged="lvOptions_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Option ID" DisplayMemberBinding="{Binding OptionId}" />
+                    <GridViewColumn Header="Option Text" DisplayMemberBinding="{Binding OptionText}" />
+                    <GridViewColumn Header="Is Correct" DisplayMemberBinding="{Binding IsCorrect}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
+            <TextBox x:Name="txtOptionText" Width="200" Margin="0,0,10,0"/>
+            <CheckBox x:Name="chkIsCorrect" Content="Correct" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <Button Content="Add" Click="btnAdd_Click" Width="60"/>
+            <Button Content="Update" Click="btnUpdate_Click" Width="60" Margin="10,0,0,0"/>
+            <Button Content="Delete" Click="btnDelete_Click" Width="60" Margin="10,0,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>

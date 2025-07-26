@@ -1,8 +1,3 @@
-D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\ThePresentation.csproj.AssemblyReference.cache
-D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\MainWindow.g.cs
-D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\App.g.cs
-D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\ThePresentation_MarkupCompile.cache
-D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\ThePresentation_MarkupCompile.lref
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\bin\Debug\net9.0-windows\ThePresentation.exe
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\bin\Debug\net9.0-windows\ThePresentation.deps.json
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\bin\Debug\net9.0-windows\ThePresentation.runtimeconfig.json
@@ -61,6 +56,11 @@ D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\bin\Debug\net9.0-windows\Busines
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\bin\Debug\net9.0-windows\Services.pdb
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\bin\Debug\net9.0-windows\DataAccessLayer.pdb
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\bin\Debug\net9.0-windows\Repositories.pdb
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\ThePresentation.csproj.AssemblyReference.cache
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\MainWindow.g.cs
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\App.g.cs
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\ThePresentation_MarkupCompile.cache
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\ThePresentation_MarkupCompile.lref
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\MainWindow.baml
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\ThePresentation.g.resources
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\ThePresentation.GeneratedMSBuildEditorConfig.editorconfig
@@ -74,3 +74,11 @@ D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\refint\
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\ThePresentation.pdb
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\ThePresentation.genruntimeconfig.cache
 D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\ref\ThePresentation.dll
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\Admin\AdminScreen.g.cs
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\Admin\AdminScreen.baml
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\bin\Debug\net9.0-windows\appsettings.json
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\Admin\QuizOptionsWindow.g.cs
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\Admin\QuizOptionsWindow.baml
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\Course\CoursePage\CourseDetailPage.g.cs
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\Course\Dialog\CourseEditDialog.g.cs
+D:\FPTU\SemesterV\DrugFreeSystem\DrugFreeSystem\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs

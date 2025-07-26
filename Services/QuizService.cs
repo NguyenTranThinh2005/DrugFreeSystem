@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using BusinessObjects;
 using DrugPreventionSystem.BusinessLogic.Services.Interfaces.Quizzes;
+using Repositories;
 using Repositories.Interface.LessonRepo;
 using Repositories.Interface.QuizRepo;
 
@@ -13,14 +14,19 @@ namespace DrugPreventionSystem.BusinessLogic.Services.Quizzes
         private readonly IQuizRepository _quizRepository;
         private readonly ILessonRepository _lessonRepository;
 
-        public QuizService(IQuizRepository quizRepository, ILessonRepository lessonRepository)
+        public QuizService(IQuizRepository quizRepository)
         {
             _quizRepository = quizRepository;
-            _lessonRepository = lessonRepository;
         }
 
         public void Add(Quiz quiz)
         {
+            var existing = _quizRepository.GetQuizByLessonId(quiz.LessonId);
+            if (existing != null)
+            {
+                throw new InvalidOperationException("Each lesson can have only one quiz.");
+            }
+
             _quizRepository.Create(quiz);
         }
 
